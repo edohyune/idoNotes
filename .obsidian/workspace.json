@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "10_FrameWork/10_Concept/라이센스 관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "10_FrameWork/10_Concept/라이센스 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "10_FrameWork/10_Concept/라이센스 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,6 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "10_FrameWork/10_Concept/라이센스 관리.md"
               }
             }
           }
