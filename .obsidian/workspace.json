@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "50ac17607f68ad52",
+    "type": "split",
+    "children": [
+      {
+        "id": "44a2e455729c2fc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef4b6d1975504a5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iPad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ab8dc3abdb225a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca0d13d288113970",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c54cbaf88d7c12ba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cc958dba4b0ba7bb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f9093fb5f0c091f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "14934f9a276032c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e91b013c0adf307",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fead0e9149517fa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "iPad.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f764199c1e8be15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "iPad.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "692c4e072babeb40",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a1517400e4a0c96e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "iPad.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "ef4b6d1975504a5d",
+  "lastOpenFiles": [
+    "iPhone.md",
+    "Memo.md",
+    "10_FrameWork/00_Prologue/Asteroid.excalidraw.md"
+  ]
+}
