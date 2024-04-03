@@ -1,5 +1,5 @@
   
-
+ 
 ### Create a schedule management program table with MSSQL
 
 This table, named "Schedule," has the following columns:  

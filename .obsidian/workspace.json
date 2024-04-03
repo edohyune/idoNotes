@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iPad.md",
+                "file": "10_FrameWork/10_Concept/라이센스관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iPad.md",
+                "file": "10_FrameWork/10_Concept/라이센스관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iPad.md",
+                "file": "10_FrameWork/10_Concept/라이센스관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iPad.md"
+                "file": "10_FrameWork/10_Concept/라이센스관리.md"
               }
             }
           }
@@ -150,6 +150,10 @@
   },
   "active": "ef4b6d1975504a5d",
   "lastOpenFiles": [
+    "10_FrameWork/EPIC의구성요소.md",
+    "70_Solution/Google Maps API를 활용한 권역 입력.md",
+    "70_Solution/Schedule - chatGPT.md",
+    "iPad.md",
     "iPhone.md",
     "Memo.md",
     "10_FrameWork/00_Prologue/Asteroid.excalidraw.md"
