@@ -11,9 +11,11 @@
             "id": "57c6531908769280",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "10_FrameWork/00_Prologue/Asteroid.excalidraw.md"
+                "file": "70_Solution/Google Maps API를 활용한 권역 입력.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_FrameWork/00_Prologue/Asteroid.excalidraw.md",
+                "file": "70_Solution/Google Maps API를 활용한 권역 입력.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_FrameWork/00_Prologue/Asteroid.excalidraw.md",
+                "file": "70_Solution/Google Maps API를 활용한 권역 입력.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_FrameWork/00_Prologue/Asteroid.excalidraw.md"
+                "file": "70_Solution/Google Maps API를 활용한 권역 입력.md"
               }
             }
           }
