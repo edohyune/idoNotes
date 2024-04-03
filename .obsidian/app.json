@@ -1,4 +1,5 @@
 {
   "showUnsupportedFiles": false,
-  "attachmentFolderPath": "ZZ_Files"
+  "attachmentFolderPath": "ZZ_Files",
+  "promptDelete": false
 }
