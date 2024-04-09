@@ -1,0 +1,34 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "ZZ_Template",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "ZZ_Template/Default.md",
+    "ZZ_Template/Contact Template.md",
+    "ZZ_Template/Column Properties Template.md",
+    "ZZ_Template/Server Connection Template.md"
+  ],
+  "startup_templates": [
+    "ZZ_Template/Default.md"
+  ],
+  "enable_ribbon_icon": true
+}
