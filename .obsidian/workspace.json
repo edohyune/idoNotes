@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ef15d2f6f4c56db3",
+        "id": "206ac93668057b76",
         "type": "tabs",
         "children": [
           {
-            "id": "4e45f494e8d337e5",
+            "id": "7fd457ef1afd3817",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_FrameWork/30_Manifestation/Controller/컨트롤러 구현 내용.md",
+                "file": "00_Start/개발방법론/SRD - Service Requirements Document.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "3970bcab25c098e2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ftp",
+                "query": "source",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
+                "file": "00_Start/개발방법론/SRD - Service Requirements Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
+                "file": "00_Start/개발방법론/SRD - Service Requirements Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md"
+                "file": "00_Start/개발방법론/SRD - Service Requirements Document.md"
               }
             }
           }
@@ -159,11 +148,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3970bcab25c098e2",
+  "active": "7fd457ef1afd3817",
   "lastOpenFiles": [
-    "10_FrameWork/30_Manifestation/Function/DLL Upload & Respons.md",
-    "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
+    "00_Start/개발방법론/개발방법론.md",
+    "00_Start/DOC_Contact/배태주 사무국장.md",
+    "00_Start/DOC_Contact/소진대 리오에너지 대표.md",
+    "IMG_6918.jpeg",
+    "IMG_6919.jpeg",
     "10_FrameWork/30_Manifestation/Controller/컨트롤러 구현 내용.md",
+    "00_Start/DOC_ServerConnection/EMAX SVN.md",
+    "00_Start/DOC_Contact/무제 파일.md",
+    "00_Start/DOC_Contact/박준규 코트라 관장.md",
+    "00_Start/DOC_ServerConnection/BJCHI ERP.md",
+    "75_Tutorial/Configuring EMAX Development.md",
+    "75_Tutorial/E-MAX Tutorial (1)/Chapter 10- SVN/Chapter 10- SVN.md",
+    "75_Tutorial/E-MAX Tutorial (1)/E-MAX Tutorial (1).md",
+    "10_FrameWork/EPIC의 구성요소.md",
+    "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
+    "10_FrameWork/30_Manifestation/Function/DLL Upload & Respons.md",
     "10_FrameWork/30_Manifestation/Grid_Field Properties/Grid_Field 구현 내용.md",
     "10_FrameWork/30_Manifestation/무제 폴더",
     "10_FrameWork/30_Manifestation/Grid_Field Properties",
@@ -179,17 +181,6 @@
     "75_Tutorial/작업환경.md",
     "00_Start/DOC_ServerConnection/BJCHI FTP.md",
     "10_FrameWork/10_Concept/Prologue GAIA.md",
-    "10_FrameWork/10_Concept/Prologue SELENE.md",
-    "10_FrameWork/10_Concept/DbHelper 구성.md",
-    "10_FrameWork/10_Concept/라이센스 관리.md",
-    "10_FrameWork/00_Prologue/Form 구성 과 테이블설명.md",
-    "00_Start/DOC_License/Internet Download Manager.md",
-    "00_Start/DOC_License/VMware.md",
-    "00_Start/DOC_ServerConnection/BJCHI VPN.md",
-    "00_Start/DOC_ServerConnection/BJCHI ERP.md",
-    "00_Start/DOC_ServerConnection/BJCHI SQL-RDT.md",
-    "00_Start/DOC_ServerConnection/BJCHI WEB-RDT.md",
-    "00_Start/DOC_ServerConnection/KMS Windows.md",
-    "70_Solution/Google Maps API를 활용한 권역 입력.md"
+    "10_FrameWork/10_Concept/Prologue SELENE.md"
   ]
 }
