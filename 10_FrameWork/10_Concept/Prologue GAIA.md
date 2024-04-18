@@ -15,6 +15,15 @@ CDT: 2024-03-28 06:25
 3. 컨트롤러 만들기
 	- 1차 Asteroid에서 사용될 컨트롤러 만들기
 
+idoMaker
+1. Form(DLL)  - Dll을 등록하고 컨트롤러를 등록한다. 
+3. Controller  - 등록된 컨트롤러를 관리한다. 
+4. WorkSet - 컨트롤러와 쿼리를 맵핑하여 하나의 실행 단위로 설정한다. 
+인터페이스 설정
+	From 등록 내용 - 프로젝트 이름, 로직폼 유무, Form 이름, 코드, 설명, DLL
+	Form : Controller 1:Many
+
+
 ## Asteroid 인증
 
 #### 라이센스 관리

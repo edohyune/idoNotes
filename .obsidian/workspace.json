@@ -11,11 +11,9 @@
             "id": "7fd457ef1afd3817",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "00_Start/개발방법론/SRD - Service Requirements Document.md",
-                "mode": "source",
-                "source": false
+                "file": "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Start/개발방법론/SRD - Service Requirements Document.md",
+                "file": "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Start/개발방법론/SRD - Service Requirements Document.md",
+                "file": "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Start/개발방법론/SRD - Service Requirements Document.md"
+                "file": "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md"
               }
             }
           }
@@ -150,6 +148,17 @@
   },
   "active": "7fd457ef1afd3817",
   "lastOpenFiles": [
+    "iPad.md",
+    "iPhone.md",
+    "Memo.md",
+    "00_Start/DOC_License/ExpressVPN.md",
+    "10_FrameWork/10_Concept/Prologue GAIA.md",
+    "10_FrameWork/10_Concept/Prologue SELENE.md",
+    "10_FrameWork/00_Prologue/Asteroid.excalidraw.md",
+    "ZZ_Files/Pasted Image 20240417143031_368.png",
+    "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
+    "10_Academy/Prologue.md",
+    "00_Start/개발방법론/SRD - Service Requirements Document.md",
     "00_Start/개발방법론/개발방법론.md",
     "00_Start/DOC_Contact/배태주 사무국장.md",
     "00_Start/DOC_Contact/소진대 리오에너지 대표.md",
@@ -164,23 +173,13 @@
     "75_Tutorial/E-MAX Tutorial (1)/Chapter 10- SVN/Chapter 10- SVN.md",
     "75_Tutorial/E-MAX Tutorial (1)/E-MAX Tutorial (1).md",
     "10_FrameWork/EPIC의 구성요소.md",
-    "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
     "10_FrameWork/30_Manifestation/Function/DLL Upload & Respons.md",
     "10_FrameWork/30_Manifestation/Grid_Field Properties/Grid_Field 구현 내용.md",
     "10_FrameWork/30_Manifestation/무제 폴더",
     "10_FrameWork/30_Manifestation/Grid_Field Properties",
     "10_FrameWork/10_Concept/Prologue Controller.md",
-    "10_Academy/Prologue.md",
-    "10_FrameWork/00_Prologue/Asteroid.excalidraw.md",
     "10_Academy",
     "10_FrameWork/00_Prologue/MindMap - FrameWork의 구조.canvas",
-    "ZZ_Migration/E-MAX FrameWork/Print From - GroupWare 연동 처리/Print From - GroupWare 연동 처리.md",
-    "ZZ_Migration/Frame Work 개발/SignIn.md",
-    "75_Tutorial/HowTo.md",
-    "ZZ_Migration/E-MAX FrameWork/FTP - Custom/FTP - Custom.md",
-    "75_Tutorial/작업환경.md",
-    "00_Start/DOC_ServerConnection/BJCHI FTP.md",
-    "10_FrameWork/10_Concept/Prologue GAIA.md",
-    "10_FrameWork/10_Concept/Prologue SELENE.md"
+    "ZZ_Migration/E-MAX FrameWork/Print From - GroupWare 연동 처리/Print From - GroupWare 연동 처리.md"
   ]
 }
