@@ -13,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_FrameWork/30_Manifestation/Sign In Process(1).md",
-                "mode": "preview",
+                "file": "10_FrameWork/30_Manifestation/Designer 메뉴구성.md",
+                "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2d13ac6ff627d14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "154c9db88d673f57",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "10_FrameWork/00_Prologue/Asteroid.excalidraw.md"
               }
             }
           }
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_FrameWork/30_Manifestation/Sign In Process(1).md",
+                "file": "10_FrameWork/30_Manifestation/Designer 메뉴구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_FrameWork/30_Manifestation/Sign In Process(1).md",
+                "file": "10_FrameWork/30_Manifestation/Designer 메뉴구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_FrameWork/30_Manifestation/Sign In Process(1).md"
+                "file": "10_FrameWork/30_Manifestation/Designer 메뉴구성.md"
               }
             }
           }
@@ -150,13 +166,21 @@
   },
   "active": "35f853c29c4f9cdf",
   "lastOpenFiles": [
+    "10_FrameWork/00_Prologue/Asteroid.excalidraw.md",
+    "10_FrameWork/30_Manifestation/Designer 메뉴구성.md",
+    "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
     "10_FrameWork/30_Manifestation/Sign In Process.md",
-    "10_FrameWork/30_Manifestation/Sign In Process(1).md",
+    "10_FrameWork/30_Manifestation/Grid_Field Properties/Grid_Field 구현 내용.md",
+    "10_FrameWork/10_Concept/Prologue SELENE.md",
+    "10_FrameWork/10_Concept/Prologue GAIA.md",
+    "10_FrameWork/10_Concept/Prologue Controller.md",
+    "00_Start/DOC_ServerConnection/SELENE.md",
+    "00_Start/DOC_ServerConnection/GAIA.md",
+    "00_Start/DOC_ServerConnection/KMS Windows.md",
+    "10_FrameWork/30_Manifestation/Controller/컨트롤러 구현 내용.md",
     "00_Start/ToDo List.md",
     "10_FrameWork/30_Manifestation/Controller/Ctrl_Image.md",
     "10_FrameWork/30_Manifestation/Controller/Ctrl_Attachment Set.md",
-    "10_FrameWork/10_Concept/Prologue Controller.md",
-    "10_FrameWork/10_Concept/Prologue GAIA.md",
     "10_FrameWork/10_Concept/라이센스 관리.md",
     "00_Start/Keep & Linked.md",
     "00_Start/DOC_Contact/장위숙 삼성생명.md",
@@ -165,20 +189,11 @@
     "2024-04-18.md",
     "75_Tutorial/Configuring EMAX Development.md",
     "00_Start/DOC_ServerConnection/BJCHI MS-SQL Server.md",
-    "10_FrameWork/00_Prologue/Asteroid.excalidraw.md",
     "00_Start/DOC_ServerConnection/BJCHI FTP.md",
     "ZZ_Files/WhatsApp 이미지 2024-04-18, 09.03.00_2b7e6381.jpg",
-    "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
     "iPad.md",
     "iPhone.md",
-    "Memo.md",
-    "00_Start/DOC_License/ExpressVPN.md",
-    "10_FrameWork/10_Concept/Prologue SELENE.md",
     "ZZ_Files/Pasted Image 20240417143031_368.png",
-    "10_Academy/Prologue.md",
-    "00_Start/개발방법론/SRD - Service Requirements Document.md",
-    "00_Start/개발방법론/개발방법론.md",
-    "00_Start/DOC_Contact/배태주 사무국장.md",
     "IMG_6918.jpeg",
     "IMG_6919.jpeg",
     "10_FrameWork/30_Manifestation/무제 폴더",
