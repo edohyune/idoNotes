@@ -1,5 +1,7 @@
 [
   "obsidian-excalidraw-plugin",
   "templater-obsidian",
-  "dataview"
+  "dataview",
+  "obsidian-tasks-plugin",
+  "obsidian-style-settings"
 ]
