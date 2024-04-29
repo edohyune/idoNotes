@@ -8,4 +8,4 @@ CDT: 2024-03-28 06:25
 	새로 받은것  
 	7th97-fxxz5-6dLkw-sfwa8  
 	ucu75-k9z4t-nuwpe-72qJr  
-	![[ZZ_Files/Untitled 5 3.png|Untitled 5 3.png]]
+	![[Untitled 5 3.png|Untitled 5 3.png]]

@@ -146,8 +146,8 @@
 				Username: lee.dohyun
 				Password: iTXik3u96BRV
 		![[LDH_KKL.zip]]
-		![[ZZ_Files/Untitled 1 7.png|Untitled 1 7.png]]
-		![[ZZ_Files/Untitled 2 5.png|Untitled 2 5.png]]
+		![[Untitled 1 7.png|Untitled 1 7.png]]
+		![[Untitled 2 5.png|Untitled 2 5.png]]
 + Account
 		gmail.com
 		insnoknoy@gmail.com  

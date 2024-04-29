@@ -111,7 +111,7 @@ GA190
         
         Always Print Form Name is ApprovalDoc.vb
         
-        ![[ZZ_Files/Untitled 13.png|Untitled 13.png]]
+        ![[Untitled 13.png|Untitled 13.png]]
         
         - Single approval document
             

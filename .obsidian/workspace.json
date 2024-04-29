@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c2d13ac6ff627d14",
+        "id": "3a2f648289ed1c45",
         "type": "tabs",
         "children": [
           {
-            "id": "154c9db88d673f57",
+            "id": "481d407848a0c737",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_임시/10_TasksKanban/Kanban.md",
-                "mode": "source",
+                "file": "00_Planner/Tasks.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "tag:#tasks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 200
   },
   "right": {
     "id": "14934f9a276032c7",
@@ -78,6 +78,7 @@
       {
         "id": "6e91b013c0adf307",
         "type": "tabs",
+        "dimension": 70.39930555555556,
         "children": [
           {
             "id": "3fead0e9149517fa",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_임시/10_TasksKanban/Kanban.md",
+                "file": "00_Planner/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_임시/10_TasksKanban/Kanban.md",
+                "file": "00_Planner/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +126,43 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_임시/10_TasksKanban/Kanban.md"
+                "file": "00_Planner/Tasks.md"
+              }
+            }
+          },
+          {
+            "id": "16bf1f3993156ab2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
+      },
+      {
+        "id": "77b22ab6d1cbf416",
+        "type": "tabs",
+        "dimension": 29.600694444444443,
+        "children": [
+          {
+            "id": "92e794cdd44c9e9c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,52 +173,60 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "c54cbaf88d7c12ba",
+  "active": "481d407848a0c737",
   "lastOpenFiles": [
+    "00_Planner/00_Daily/2024-04-24 수.md",
+    "00_Planner/Tasks.md",
+    "00_Planner/00_Daily/2024-04-26 금.md",
+    "00_Planner/Tasks List.md",
+    "00_Planner/00_Daily/2024-05-11 토.md",
+    "00_Planner/00_Daily/2025-01-03 금.md",
+    "00_Planner/00_Daily/2024-12-13 금.md",
+    "00_Planner/00_Daily/2024-05-09 목.md",
+    "00_Planner/00_Daily/2024-04-27 토.md",
+    "무제 파일.canvas",
+    "00_Planner/00_Daily/2024-04-18 목.md",
+    "todoist-backup-202442823057.json",
+    "00_Start/DOC_License/ExpressVPN.md",
+    "10_Project-FrameWork/User Controller/Ctrl_Attachment Set.md",
+    "10_Project-FrameWork/Function/FrameWork Function.md",
+    "00_Planner/00_Daily/Invalid date.md",
+    "10_Project-FrameWork/User Controller/Ctrl_Button.md",
+    "00_Start/DOC_Contact/Contact List.md",
+    "00_Start/개발방법론/SRD - Service Requirements Document.md",
+    "00_Start/개발방법론/개발방법론.md",
+    "10_Project-FrameWork/Readme.md",
+    "15_FrameWork/00_Prologue/Asteroid.excalidraw.md",
+    "15_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
+    "10_Project-FrameWork/Function",
+    "00_Planner/00_Daily/2024-04-26(금).md",
+    "ZZ_Template/Daily.md",
+    "2024-04-28.md",
+    "10_Project-FrameWork/User Controller/User Controller.md",
+    "15_FrameWork/30_Manifestation/Controller/Ctrl_Text Box.md",
+    "10_Project-FrameWork/Project FrameWork Map.canvas",
+    "10_Project-FrameWork/User Controller",
+    "15_FrameWork/00_Prologue/MindMap - FrameWork의 구조.canvas",
+    "15_FrameWork/00_Prologue/MindMap - FrameWork의 구조 1.canvas",
+    "10_Project-FrameWork",
+    "00_Planner/00_Daily",
+    "00_Planner",
+    "todoist-backup-2024425144641.json",
+    "ZZ_Files/imgs/1.png",
+    "ZZ_Files/imgs/58._Quartz_Scheduler_(%EC%BF%BC%EC%B8%A0_%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC).pdf",
+    "ZZ_Files/imgs/20240418_작업오더_레포트01.jpg",
+    "ZZ_Files/imgs/IMG_6869.jpeg",
+    "ZZ_Files/imgs",
+    "ZZ_Files/Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
     "ZZ_Files/Fonts/SourceCodePro-LightItalic.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-Light.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-ExtraLightItalic.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-ExtraLight.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-ExtraBold.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-SemiBoldItalic.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-SemiBold.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-Regular.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-MediumItalic.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-Medium.ttf",
-    "ZZ_Files/Fonts/SourceCodePro-Italic.ttf",
-    "10_FrameWork/00_Prologue/Technical Structure of FrameWork.excalidraw.md",
-    "10_FrameWork/00_Prologue/Asteroid.excalidraw.md",
-    "10_임시/10_Mupai Business/EMAX Business Model.md",
-    "10_임시/10_Mupai Business/00_Prologue.md",
-    "10_임시/10_Academy/Prologue.md",
-    "10_임시/10_인문학으로 개발하기/Prologue.md",
-    "10_임시/10_인문학으로 개발하기/그녀석.md",
-    "10_임시/10_인문학으로 개발하기/관련정보.md",
-    "2024-04-18.md",
-    "00_Start/ToDo List.md",
-    "2024-04-24.md",
-    "무제 파일.md",
-    "10_FrameWork/30_Manifestation/Designer 메뉴구성.md",
-    "10_FrameWork/30_Manifestation/Sign In Process.md",
-    "10_FrameWork/30_Manifestation/Grid_Field Properties/Grid_Field 구현 내용.md",
-    "10_FrameWork/10_Concept/Prologue SELENE.md",
-    "10_FrameWork/10_Concept/Prologue GAIA.md",
-    "10_FrameWork/10_Concept/Prologue Controller.md",
-    "00_Start/DOC_ServerConnection/SELENE.md",
-    "00_Start/DOC_ServerConnection/GAIA.md",
-    "00_Start/DOC_ServerConnection/KMS Windows.md",
-    "10_FrameWork/30_Manifestation/Controller/컨트롤러 구현 내용.md",
-    "10_FrameWork/30_Manifestation/Controller/Ctrl_Image.md",
-    "10_FrameWork/30_Manifestation/Controller/Ctrl_Attachment Set.md",
-    "10_FrameWork/10_Concept/라이센스 관리.md",
-    "ZZ_Files/20240418_작업오더_레포트01.jpg",
-    "ZZ_Files/WhatsApp 이미지 2024-04-18, 09.03.00_2b7e6381.jpg",
-    "ZZ_Files/Pasted Image 20240417143031_368.png",
+    "ZZ_Files/imgs/WhatsApp 이미지 2024-04-18, 09.03.00_2b7e6381.jpg",
+    "ZZ_Files/imgs/Pasted Image 20240417143031_368.png",
     "IMG_6918.jpeg",
-    "IMG_6919.jpeg",
-    "10_FrameWork/00_Prologue/MindMap - FrameWork의 구조.canvas"
+    "IMG_6919.jpeg"
   ]
 }

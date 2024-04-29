@@ -3,7 +3,7 @@ CDT: 2024-03-28 10:10
 ---
 ---- 
 LinqPad
-	![[ZZ_Files/Untitled 3 5.png|Untitled 3 5.png]]
+	![[Untitled 3 5.png|Untitled 3 5.png]]
 	Your invoice number is Z3542RQKZ5YR
 	License
 	Here is your activation code:

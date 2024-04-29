@@ -23,4 +23,4 @@ CREATE FUNCTION [dbo].[tbl_WBSASS_TVP] (@CID TVP_CID readonly)
 
 ```
 
-![[ZZ_Files/Untitled 19.png|Untitled 19.png]]
+![[Untitled 19.png|Untitled 19.png]]

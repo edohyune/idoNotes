@@ -1,4 +1,6 @@
 ---
-CDT: 2024-03-28 06:25
+CDT: <% tp.file.creation_date() %>
+MDT: <% tp.file.last_modified_date() %>
 ---
 ---
+

@@ -22,6 +22,16 @@
     "excalidraw-autoexport": "text",
     "excalidraw-iframe-theme": "text",
     "excalidraw-open-md": "checkbox",
-    "excalidraw-export-embed-scene": "checkbox"
+    "excalidraw-export-embed-scene": "checkbox",
+    "table": "multitext",
+    "Concept": "checkbox",
+    "Manifestation": "checkbox",
+    "Integration": "checkbox",
+    "Done": "date",
+    "Date": "date",
+    "Start Date": "date",
+    "Status": "text",
+    "MDT": "text",
+    "CDT": "text"
   }
 }

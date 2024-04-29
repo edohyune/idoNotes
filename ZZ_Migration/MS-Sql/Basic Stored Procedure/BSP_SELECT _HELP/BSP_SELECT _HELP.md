@@ -1,4 +1,4 @@
-![[ZZ_Files/Untitled 25.png|Untitled 25.png]]
+![[Untitled 25.png|Untitled 25.png]]
 
 ```SQL
 USE [DIANA]

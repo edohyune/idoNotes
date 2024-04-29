@@ -1,0 +1,117 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "Status": {
+          "options": [
+            "Prologue",
+            "In Progress",
+            "Done"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "ZZ_Template/Project Template - FrameWork.md"
+      ],
+      "excludedNotes": [
+        "10_Project-FrameWork/Readme.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "10_Project-FrameWork",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "Concept",
+              "CDT",
+              "Done",
+              "Integration",
+              "Manifestation",
+              "MDT",
+              "Start Date",
+              "Status",
+              "tags"
+            ],
+            "fieldConfig": {
+              "path": {
+                "width": 481
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9c3f4bc8-913d-4332-b762-d34369ce876d",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "columns": {
+              "Prologue": {
+                "records": [
+                  "10_Project-FrameWork/User Controller/Ctrl_Check Box.md",
+                  "10_Project-FrameWork/User Controller/Ctrl_Button.md",
+                  "10_Project-FrameWork/User Controller/Ctrl_Attachment Set.md"
+                ]
+              },
+              "No status": {
+                "records": []
+              }
+            },
+            "includeFields": []
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "path",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "f3dc1ae6-ddfb-476e-9a15-1b68b29c36e0",
+          "name": "KANBAN",
+          "type": "board"
+        }
+      ],
+      "id": "e5367df9-e4bf-4447-8175-cabe067b6123",
+      "name": "FrameWork"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

@@ -1,5 +1,6 @@
 {
   "showUnsupportedFiles": false,
-  "attachmentFolderPath": "ZZ_Files",
-  "promptDelete": false
+  "attachmentFolderPath": "ZZ_Files/imgs",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

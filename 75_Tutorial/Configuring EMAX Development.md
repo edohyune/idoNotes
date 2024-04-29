@@ -25,7 +25,7 @@
     
     - SVN Setting (Do Not Commit obj, debug, release)
         
-        ![[ZZ_Files/Untitled 18.png|Untitled 18.png]]
+        ![[Untitled 18.png|Untitled 18.png]]
         
         TortoiseSVN(Right Click) > Settings
         

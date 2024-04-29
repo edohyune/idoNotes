@@ -8,7 +8,7 @@
         
         Numbering Policy Form(BB500)
         
-        ![[ZZ_Files/Untitled 17.png|Untitled 17.png]]
+        ![[Untitled 17.png|Untitled 17.png]]
         
         ```VB.Net
         Private Sub MM120_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -112,16 +112,16 @@
         
         - 참조할때 사용하는 DLL 목록 확인
             
-            ![[ZZ_Files/Untitled 1 9.png|Untitled 1 9.png]]
+            ![[Untitled 1 9.png|Untitled 1 9.png]]
             
         
-        ![[ZZ_Files/Untitled 13.png|Untitled 13.png]]
+        ![[Untitled 13.png|Untitled 13.png]]
         
         > Always Print Form Name is ApprovalDoc.vb
         
         - Single approval document
             
-            ![[ZZ_Files/Untitled 2 6.png|Untitled 2 6.png]]
+            ![[Untitled 2 6.png|Untitled 2 6.png]]
             
             ```VB.Net
             \#Region "Approval Button =========================================  Edit"
@@ -583,7 +583,7 @@
             
             When testing groupware, you must log in with ID:kh Password:1.
             
-            ![[ZZ_Files/Untitled 3 6.png|Untitled 3 6.png]]
+            ![[Untitled 3 6.png|Untitled 3 6.png]]
             
         - Add VisualBasic Code
             
@@ -659,7 +659,7 @@
             
             System > Copy
             
-            ![[ZZ_Files/Untitled 4 4.png|Untitled 4 4.png]]
+            ![[Untitled 4 4.png|Untitled 4 4.png]]
             
         - Workset
             

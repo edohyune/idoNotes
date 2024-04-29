@@ -85,13 +85,13 @@
     
 - Server Setting
     
-    ![[ZZ_Files/Untitled 22.png|Untitled 22.png]]
+    ![[Untitled 22.png|Untitled 22.png]]
     
-    ![[ZZ_Files/Untitled 1 11.png|Untitled 1 11.png]]
+    ![[Untitled 1 11.png|Untitled 1 11.png]]
     
-    ![[ZZ_Files/Untitled 2 7.png|Untitled 2 7.png]]
+    ![[Untitled 2 7.png|Untitled 2 7.png]]
     
-    ![[ZZ_Files/Untitled 3 7.png|Untitled 3 7.png]]
+    ![[Untitled 3 7.png|Untitled 3 7.png]]
     
 - WorkSet
     

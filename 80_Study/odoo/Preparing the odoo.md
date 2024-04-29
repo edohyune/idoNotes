@@ -34,7 +34,7 @@
                 
                 **==아래 부분을 이해하지 못해서 실패!!==**
                 
-                ![[ZZ_Files/Untitled 14.png|Untitled 14.png]]
+                ![[Untitled 14.png|Untitled 14.png]]
                 
         - ==Source Install== `Success`> [!important]  
             > 초기 사용자 아이디로 데이터 베이스 생성  
@@ -352,11 +352,11 @@
         
         파일시스템 설정 Default 값으로
         
-        ![[ZZ_Files/Untitled 1 6.png|Untitled 1 6.png]]
+        ![[Untitled 1 6.png|Untitled 1 6.png]]
         
         사용자 설정
         
-        ![[ZZ_Files/Untitled 2 4.png|Untitled 2 4.png]]
+        ![[Untitled 2 4.png|Untitled 2 4.png]]
         
         Server information trnsvr iadmin/iadmin
         
@@ -492,7 +492,7 @@
         sudo -u postgres psql
         ```
         
-        ![[ZZ_Files/Untitled 3 4.png|Untitled 3 4.png]]
+        ![[Untitled 3 4.png|Untitled 3 4.png]]
         
         ```Shell
         sudo vim /etc/postgresql/14/main/postgresql.conf
@@ -517,7 +517,7 @@
         > Copyright © 1996-2023 The PostgreSQL Global Development Group  
         > [https://www.postgresql.org/ftp/pgadmin/pgadmin4/v8.0/windows/](https://www.postgresql.org/ftp/pgadmin/pgadmin4/v8.0/windows/)  
         
-        ![[ZZ_Files/Untitled 4 2.png|Untitled 4 2.png]]
+        ![[Untitled 4 2.png|Untitled 4 2.png]]
         
     
     [[postgreSQL TABLE check]]
@@ -530,11 +530,11 @@
         
         https://erp.kokkok.asia/web==?debug=1==\#id=462&cids=1&menu_id=109&action=168&……
         
-        ![[ZZ_Files/Untitled 5 2.png|Untitled 5 2.png]]
+        ![[Untitled 5 2.png|Untitled 5 2.png]]
         
     2. Setting에서 선택
         
-        ![[ZZ_Files/Untitled 6 2.png|Untitled 6 2.png]]
+        ![[Untitled 6 2.png|Untitled 6 2.png]]
         
 
   

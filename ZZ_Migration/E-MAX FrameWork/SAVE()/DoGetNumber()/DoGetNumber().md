@@ -59,4 +59,4 @@ Begin
 End
 ```
 
-![[ZZ_Files/Untitled 26.png|Untitled 26.png]]
+![[Untitled 26.png|Untitled 26.png]]
