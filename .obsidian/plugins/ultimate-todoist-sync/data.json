@@ -71,6 +71,98 @@
         "url": "https://todoist.com/app/task/7943601357",
         "duration": null,
         "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7944904306",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 6,
+        "content": "도어라이트 교체 김울 작업실 전구 교체 25W White",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T16:55:24.005275Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7944904306",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7944905085",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 7,
+        "content": "운동시작",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T16:55:37.566747Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7944905085",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7944907404",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 8,
+        "content": "방역 견적",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T16:56:19.099956Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7944907404",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7944908137",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 9,
+        "content": "사무실 에어컨 견적",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T16:56:27.695909Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7944908137",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
       }
     ],
     "events": [
@@ -137,13 +229,35 @@
         "object_type": "project",
         "parent_item_id": null,
         "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-29T17:04:37.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5826",
+          "content": "도어라이트 교체 김울 작업실 전구 교체 25W White",
+          "last_content": "도어라이트 교체",
+          "note_count": 0
+        },
+        "extra_data_id": 23884897418,
+        "id": 23798594007,
+        "initiator_id": null,
+        "object_id": "7944904306",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
       }
     ]
   },
   "fileMetadata": {
     "00_Planner/00_Daily/2024-04/2024-04-30 화.md": {
-      "todoistTasks": [],
-      "todoistCount": 0
+      "todoistTasks": [
+        "7944904306",
+        "7944905085",
+        "7944907404",
+        "7944908137"
+      ],
+      "todoistCount": 4
     }
   },
   "enableFullVaultSync": false,

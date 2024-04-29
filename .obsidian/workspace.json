@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7964cf51f7d9b4d6",
+        "id": "a490ddf58d9b4c8a",
         "type": "tabs",
         "children": [
           {
-            "id": "b838b17c20817376",
+            "id": "68454103b4c15d14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Planner/Tasks.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Planner/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Planner/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00_Planner/Tasks.md"
-              }
+              "state": {}
             }
           },
           {
@@ -178,51 +170,51 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "b838b17c20817376",
+  "active": "68454103b4c15d14",
   "lastOpenFiles": [
-    "00_Planner/00_Daily/2025-01-03 금.md",
-    "00_Planner/00_Daily/무제 파일.md",
-    "00_Planner/00_Daily/2024-12-13 금.md",
-    "00_Planner/00_Daily/2024-05-11 토.md",
-    "00_Planner/00_Daily/2024-05-09 목.md",
-    "00_Planner/00_Daily/2024-04/2024-04-30 화.md",
-    "00_Planner/00_Daily/2024-04/2024-04-29 월.md",
-    "todoist-backup-2024429173552.json",
-    "00_Planner/00_Daily/2024-04/2024-04-18 목.md",
-    "00_Planner/00_Daily/2024-04",
-    "15_FrameWork/EPIC의 구성요소.md",
-    "15_FrameWork/Components(Data Binding).md",
-    "15_FrameWork/DataBinding.md",
+    "00_Planner/00_Daily/2024-04/2024-04-24 수.md",
+    "70_Solution/Schedule - chatGPT.md",
+    "iPad.md",
+    "iPhone.md",
+    "70_Solution/Google Maps API를 활용한 권역 입력.md",
+    "00_Start/Guide Of Documentation.md",
+    "20_EPIC Document/환경설정.md",
+    "10_Project-FrameWork(EPIC)/Server Configration/Create Database.md",
+    "10_Project-FrameWork(EPIC)/Function/Basic Procedure Setting.md",
+    "10_Project-FrameWork(EPIC)/Program List/Designer 메뉴구성.md",
+    "10_Project-FrameWork(EPIC)/Program List/Designer.md",
+    "10_Project-FrameWork(EPIC)/User Controller/Components(Data Binding).md",
+    "10_Project-FrameWork(EPIC)/Function/DataBinding.md",
+    "10_Project-FrameWork(EPIC)/EPIC의 구성요소.md",
+    "10_Project-FrameWork(EPIC)/Function/FrameWork Function.md",
     "15_FrameWork/Function of FrameWork.md",
-    "15_FrameWork/Object Document.md",
-    "15_FrameWork/Object Money in ERP.md",
-    "15_FrameWork/환경설정.md",
-    "15_FrameWork/60_Integration/Create Database.md",
-    "15_FrameWork/60_Integration/Basic Procedure Setting.md",
-    "15_FrameWork/30_Manifestation/Sign In Process.md",
-    "15_FrameWork/30_Manifestation/Designer 메뉴구성.md",
-    "10_Project-FrameWork/DbHelper 구성.md",
-    "15_FrameWork/10_Concept/Prologue Controller.md",
-    "10_Project-FrameWork/라이센스 관리.md",
-    "10_Project-FrameWork/Prologue SELENE.md",
-    "10_Project-FrameWork/Prologue GAIA.md",
-    "10_Project-FrameWork/MindMap - FrameWork의 구조.canvas",
-    "10_Project-FrameWork/Project FrameWork Map.canvas",
-    "10_Project-FrameWork/Technical Structure of FrameWork.excalidraw.md",
-    "10_Project-FrameWork/Form 구성 과 테이블설명.md",
+    "10_Project-FrameWork(EPIC)/Function/Object Document.md",
+    "10_Project-Solution/Finance/Object Money in ERP.md",
+    "10_Project-Solution/Finance",
+    "10_Project-Solution",
+    "10_Project-FrameWork(EPIC)/Program List/idoMaker - Supervisor of Framework.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
-    "todoist-backup-202442823057.json",
-    "10_Project-FrameWork/Function",
-    "10_Project-FrameWork/User Controller",
+    "10_Project-FrameWork(EPIC)/Program List/ERP - FormMain.md",
+    "10_Project-FrameWork(EPIC)/Program List",
+    "10_Project-FrameWork(EPIC)/Form 구성 과 테이블설명.md",
+    "10_Project-FrameWork(EPIC)/MindMap - FrameWork의 구조.canvas",
+    "10_Project-FrameWork(EPIC)/Project FrameWork Map.canvas",
+    "10_Project-FrameWork(EPIC)/Technical Structure of FrameWork.excalidraw.md",
+    "10_Project-FrameWork(EPIC)/Server Configration/Server SELENE.md",
+    "10_Project-FrameWork(EPIC)/Server Configration/Server GAIA.md",
+    "10_Project-FrameWork(EPIC)/Server Configration",
+    "10_Project-FrameWork(EPIC)/Function/DbHelper 구성.md",
+    "10_Project-FrameWork(EPIC)/Asteroid.excalidraw.md",
+    "00_Planner/00_Daily/무제 폴더 4",
+    "00_Planner/00_Daily/무제 폴더 3",
+    "00_Planner/00_Daily/무제 폴더 2",
+    "00_Planner/00_Daily/2025-01",
+    "00_Planner/00_Daily/2024-12",
+    "todoist-backup-2024429173552.json",
     "15_FrameWork/00_Prologue/MindMap - FrameWork의 구조 1.canvas",
-    "10_Project-FrameWork",
-    "00_Planner/00_Daily",
-    "00_Planner",
-    "todoist-backup-2024425144641.json",
     "ZZ_Files/imgs/1.png",
-    "ZZ_Files/imgs/58._Quartz_Scheduler_(%EC%BF%BC%EC%B8%A0_%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC).pdf",
     "ZZ_Files/imgs/20240418_작업오더_레포트01.jpg",
     "ZZ_Files/imgs/IMG_6869.jpeg",
     "ZZ_Files/Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
