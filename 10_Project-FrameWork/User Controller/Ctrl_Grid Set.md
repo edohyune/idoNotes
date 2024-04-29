@@ -1,11 +1,29 @@
 ---
-CDT: 2024-03-28 06:25
+Start Date: 
+Status: 
+Concept: false
+Manifestation: false
+Integration: false
+Done: 
+tags: 
+CDT: <% tp.file.creation_date() %>
+MDT: <% tp.file.last_modified_date() %>
 ---
+---
+#### Prologue / Concept
+
+#### Manifestation
 ---
 - [ ] [[Ctrl_Standard Grid]]
 - [ ] [[Ctrl_Pivot Grid]]
 - [ ] [[Ctrl_Tree Grid]]
 ---
+#### Integration
+
+###### REFERENCE
+
+
+
 ##### 외부 작동 요소
 Load
 	GRID 초기화
@@ -80,3 +98,26 @@ Method
 	SetGridData
 	Clear
 	FindRow
+
+
+그리드 필드에 추가되어야 하는 것
+Pivot		
+Excel		
+Grouping		
+Sorting		
+Cell Formula		
+	Formula	
+	Format	
+	Mask	
+	Summary Type	
+	Call PopUp	
+	Merge	
+	Title, Contents	
+		align
+조건별 색상		
+다국어, 유니코드		
+복사		
+붙여넣기		
+싱글타이틀		
+검색타이틀		
+

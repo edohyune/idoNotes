@@ -29,6 +29,8 @@
 		{"id":"188c4d94ba076208","type":"text","text":"FromMain에서 Session 정보를 확인하고 SignIn응 호출","x":40,"y":400,"width":493,"height":62,"color":"3"},
 		{"id":"54bec58ad26996aa","type":"text","text":"사용자 확인","x":-312,"y":700,"width":250,"height":60},
 		{"id":"3a3d6a2e2c1db531","type":"file","file":"ZZ_Files/imgs/FormMain.png","x":-680,"y":1120,"width":400,"height":321},
+		{"id":"1aedbe0441f369a3","type":"text","text":"Setting","x":760,"y":870,"width":250,"height":60},
+		{"id":"1bac752ac824c5b4","type":"text","text":"FormMain 호출","x":400,"y":900,"width":250,"height":60},
 		{"id":"b904e06272c67f05","type":"text","text":"성공","x":40,"y":900,"width":250,"height":60},
 		{"id":"376f8d9223c5700f","type":"text","text":"Hide SignIn","x":400,"y":980,"width":250,"height":60},
 		{"id":"9375f225314eb1cc","type":"text","text":"실패","x":40,"y":600,"width":247,"height":60},
@@ -36,8 +38,6 @@
 		{"id":"901e9480006c614f","type":"text","text":"FrameWork Close","x":400,"y":680,"width":250,"height":60},
 		{"id":"eabf6d65ec1baaef","type":"text","text":"Input","x":760,"y":770,"width":250,"height":60},
 		{"id":"664cab6951deabb6","type":"text","text":"전역변수 셋팅","x":400,"y":820,"width":250,"height":60},
-		{"id":"1aedbe0441f369a3","type":"text","text":"Setting","x":760,"y":870,"width":250,"height":60},
-		{"id":"1bac752ac824c5b4","type":"text","text":"FormMain 호출","x":400,"y":900,"width":250,"height":60},
 		{"id":"10b8ee2018aa9f71","type":"file","file":"ZZ_Files/imgs/Sign In.png","x":-178,"y":1194,"width":258,"height":173},
 		{"id":"7a8cc982b54f10c6","type":"text","text":"Login\n1. FormMain\n2. FormMaker","x":411,"y":1208,"width":474,"height":159}
 	],
