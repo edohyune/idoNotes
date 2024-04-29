@@ -1,0 +1,153 @@
+{
+  "initialized": true,
+  "apiInitialized": true,
+  "defaultProjectName": "Inbox",
+  "automaticSynchronizationInterval": 300,
+  "todoistTasksData": {
+    "projects": [
+      {
+        "id": "2331727597",
+        "parentId": null,
+        "order": 0,
+        "color": "charcoal",
+        "name": "Inbox",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": true,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2331727597",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2332478962",
+        "parentId": null,
+        "order": 1,
+        "color": "olive_green",
+        "name": "someday",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2332478962",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2332479756",
+        "parentId": null,
+        "order": 2,
+        "color": "charcoal",
+        "name": "memo",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2332479756",
+        "viewStyle": "list"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "7943601357",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 5,
+        "content": "피트니스",
+        "description": "[00_Planner/00_Daily/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T10:36:08.735094Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7943601357",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      }
+    ],
+    "events": [
+      {
+        "event_date": "2024-04-29T04:02:56.000000Z",
+        "event_type": "deleted",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5821",
+          "name": "",
+          "note_count": 0
+        },
+        "extra_data_id": 23876606980,
+        "id": 23790303752,
+        "initiator_id": null,
+        "object_id": "2332498938",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-29T03:46:49.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5821",
+          "name": "GCal",
+          "note_count": 0
+        },
+        "extra_data_id": 23876522685,
+        "id": 23790219454,
+        "initiator_id": null,
+        "object_id": "2332498938",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-28T17:40:21.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5821",
+          "name": "memo",
+          "note_count": 0
+        },
+        "extra_data_id": 23872933698,
+        "id": 23786630475,
+        "initiator_id": null,
+        "object_id": "2332479756",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-28T17:25:57.000000Z",
+        "event_type": "deleted",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5821",
+          "name": "",
+          "note_count": 0
+        },
+        "extra_data_id": 23872837059,
+        "id": 23786533845,
+        "initiator_id": null,
+        "object_id": "2332479236",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      }
+    ]
+  },
+  "fileMetadata": {
+    "00_Planner/00_Daily/2024-04/2024-04-30 화.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    }
+  },
+  "enableFullVaultSync": false,
+  "statistics": {},
+  "debugMode": false,
+  "todoistAPIToken": "90574ebd09db653576fa9c028533b418f315098e"
+}
