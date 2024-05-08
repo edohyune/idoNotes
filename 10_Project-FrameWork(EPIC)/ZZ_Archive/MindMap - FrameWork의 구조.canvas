@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"a1d68bab8cf9cfac","type":"group","x":-700,"y":-660,"width":2090,"height":940,"label":"Structure of FrameWork"},
+		{"id":"a1d68bab8cf9cfac","type":"group","x":-700,"y":-680,"width":2090,"height":960,"label":"Structure of FrameWork"},
 		{"id":"5b60aa98bfc68997","type":"group","x":-700,"y":380,"width":1730,"height":1081,"label":"Sign In"},
 		{"id":"c02767a4033ecf7e","type":"text","text":"Session Function","x":1120,"y":-475,"width":250,"height":60},
 		{"id":"79ae3aef88ac4e5d","type":"text","text":"Library / Function","x":760,"y":-400,"width":250,"height":60},
@@ -24,22 +24,22 @@
 		{"id":"c57d7713fadcc7e0","type":"text","text":"Licence","x":760,"y":38,"width":250,"height":60},
 		{"id":"3e09b20a3e79cfb6","type":"text","text":"Livrary","x":400,"y":94,"width":250,"height":60},
 		{"id":"6bcbc8caf78dc280","type":"text","text":"실패 메시지","x":400,"y":520,"width":250,"height":60},
-		{"id":"1708f104f159451c","type":"text","text":"FrameWork","x":-312,"y":400,"width":250,"height":60},
 		{"id":"4202429533491d57","type":"text","text":"Login","x":-680,"y":540,"width":250,"height":60},
+		{"id":"1708f104f159451c","type":"text","text":"FrameWork","x":-312,"y":400,"width":250,"height":60},
 		{"id":"188c4d94ba076208","type":"text","text":"FromMain에서 Session 정보를 확인하고 SignIn응 호출","x":40,"y":400,"width":493,"height":62,"color":"3"},
 		{"id":"54bec58ad26996aa","type":"text","text":"사용자 확인","x":-312,"y":700,"width":250,"height":60},
 		{"id":"3a3d6a2e2c1db531","type":"file","file":"ZZ_Files/imgs/FormMain.png","x":-680,"y":1120,"width":400,"height":321},
-		{"id":"664cab6951deabb6","type":"text","text":"전역변수 셋팅","x":400,"y":820,"width":250,"height":60},
-		{"id":"1aedbe0441f369a3","type":"text","text":"Setting","x":760,"y":870,"width":250,"height":60},
 		{"id":"1bac752ac824c5b4","type":"text","text":"FormMain 호출","x":400,"y":900,"width":250,"height":60},
-		{"id":"b904e06272c67f05","type":"text","text":"성공","x":40,"y":900,"width":250,"height":60},
 		{"id":"376f8d9223c5700f","type":"text","text":"Hide SignIn","x":400,"y":980,"width":250,"height":60},
-		{"id":"9375f225314eb1cc","type":"text","text":"실패","x":40,"y":600,"width":247,"height":60},
+		{"id":"7a8cc982b54f10c6","type":"text","text":"Login\n1. FormMain\n2. FormMaker","x":411,"y":1208,"width":474,"height":159},
+		{"id":"b904e06272c67f05","type":"text","text":"성공","x":40,"y":900,"width":250,"height":60},
 		{"id":"a15eb71ebee7a5a5","type":"text","text":"Hide SignIn","x":400,"y":600,"width":250,"height":60},
 		{"id":"901e9480006c614f","type":"text","text":"FrameWork Close","x":400,"y":680,"width":250,"height":60},
 		{"id":"eabf6d65ec1baaef","type":"text","text":"Input","x":760,"y":770,"width":250,"height":60},
-		{"id":"10b8ee2018aa9f71","type":"file","file":"ZZ_Files/imgs/Sign In.png","x":-178,"y":1194,"width":258,"height":173},
-		{"id":"7a8cc982b54f10c6","type":"text","text":"Login\n1. FormMain\n2. FormMaker","x":411,"y":1208,"width":474,"height":159}
+		{"id":"664cab6951deabb6","type":"text","text":"전역변수 셋팅","x":400,"y":820,"width":250,"height":60},
+		{"id":"1aedbe0441f369a3","type":"text","text":"Setting","x":760,"y":870,"width":250,"height":60},
+		{"id":"9375f225314eb1cc","type":"text","text":"실패","x":40,"y":600,"width":247,"height":60},
+		{"id":"10b8ee2018aa9f71","type":"file","file":"ZZ_Files/imgs/Sign In.png","x":-178,"y":1194,"width":258,"height":173}
 	],
 	"edges":[
 		{"id":"79f9ec1b4d79bec1","fromNode":"8dc6d1b26a5b6f77","fromSide":"right","toNode":"c006d23fd2631207","toSide":"left"},

@@ -1,8 +1,7 @@
 ---
-
 excalidraw-plugin: parsed
-tags: [excalidraw]
-
+tags:
+  - excalidraw
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
@@ -118,7 +117,7 @@ adb62550751973eca334e8481ab53e688cfe86ef: [[FormMapping_Home.png]]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.1",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.6",
 	"elements": [
 		{
 			"type": "arrow",
@@ -3839,8 +3838,8 @@ adb62550751973eca334e8481ab53e688cfe86ef: [[FormMapping_Home.png]]
 		},
 		{
 			"type": "text",
-			"version": 86,
-			"versionNonce": 2062750718,
+			"version": 87,
+			"versionNonce": 1857074488,
 			"isDeleted": false,
 			"id": "PnKwBJOU",
 			"fillStyle": "hachure",
@@ -3849,8 +3848,8 @@ adb62550751973eca334e8481ab53e688cfe86ef: [[FormMapping_Home.png]]
 			"roughness": 0,
 			"opacity": 80,
 			"angle": 0,
-			"x": -1834.9840263672213,
-			"y": -4150.8280860477325,
+			"x": -1832.7618041449991,
+			"y": -4148.605863825511,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 1099.5870361328125,
@@ -3860,7 +3859,7 @@ adb62550751973eca334e8481ab53e688cfe86ef: [[FormMapping_Home.png]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1712131452623,
+			"updated": 1714476409934,
 			"link": null,
 			"locked": false,
 			"fontSize": 83.81250000000017,
@@ -4267,10 +4266,10 @@ adb62550751973eca334e8481ab53e688cfe86ef: [[FormMapping_Home.png]]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": "circle",
 		"currentItemEndArrowhead": "circle",
-		"scrollX": 2330.3557043988258,
-		"scrollY": 4830.481021964284,
+		"scrollX": 2011.1414186845411,
+		"scrollY": 4763.671994186508,
 		"zoom": {
-			"value": 0.25
+			"value": 0.44999999999999996
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
@@ -4306,7 +4305,8 @@ adb62550751973eca334e8481ab53e688cfe86ef: [[FormMapping_Home.png]]
 			"clip": true,
 			"name": true,
 			"outline": true
-		}
+		},
+		"objectsSnapModeEnabled": false
 	},
 	"files": {}
 }

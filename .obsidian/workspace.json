@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a490ddf58d9b4c8a",
+        "id": "bcc35277200f559f",
         "type": "tabs",
         "children": [
           {
-            "id": "68454103b4c15d14",
+            "id": "71a674477a234c86",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tasks",
+                "query": "PropertyGroup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 255.5
   },
   "right": {
     "id": "14934f9a276032c7",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md"
+              }
             }
           },
           {
@@ -132,6 +140,14 @@
                 "showSearch": false,
                 "searchQuery": ""
               }
+            }
+          },
+          {
+            "id": "7ace38cd78c9eb21",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
             }
           }
         ],
@@ -154,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 232.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,52 +184,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
       "obsidian-projects:Open projects": false,
-      "markdown-importer:마크다운 형식 가져오기 열기": false
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "68454103b4c15d14",
+  "active": "71a674477a234c86",
   "lastOpenFiles": [
-    "00_Planner/00_Daily/2024-04/2024-04-24 수.md",
-    "70_Solution/Schedule - chatGPT.md",
-    "iPad.md",
-    "iPhone.md",
-    "70_Solution/Google Maps API를 활용한 권역 입력.md",
-    "00_Start/Guide Of Documentation.md",
-    "20_EPIC Document/환경설정.md",
-    "10_Project-FrameWork(EPIC)/Server Configration/Create Database.md",
-    "10_Project-FrameWork(EPIC)/Function/Basic Procedure Setting.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/USR - User.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/FRW - FrameWork.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/모델변환 - Data Type.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/작업할것.md",
+    "10_Project-FrameWork(EPIC)/Program List/Sign In Process.md",
+    "10_Project-FrameWork(EPIC)/Program List/idoMaker - Supervisor of Framework.md",
+    "10_Project-FrameWork(EPIC)/Program List/ERP - FormMain.md",
     "10_Project-FrameWork(EPIC)/Program List/Designer 메뉴구성.md",
     "10_Project-FrameWork(EPIC)/Program List/Designer.md",
-    "10_Project-FrameWork(EPIC)/User Controller/Components(Data Binding).md",
-    "10_Project-FrameWork(EPIC)/Function/DataBinding.md",
-    "10_Project-FrameWork(EPIC)/EPIC의 구성요소.md",
+    "10_Project-FrameWork(EPIC)/Function/TAG.md",
+    "00_Planner/00_Daily/2024-04/2024-04-24 수.md",
+    "00_Planner/00_Daily/2024-04/2024-04-18 목.md",
+    "00_Planner/00_Daily/2024-04/2024-04-26 금.md",
+    "00_Planner/00_Daily/2024-04/2024-04-27 토.md",
+    "00_Planner/00_Daily/2024-04/2024-04-29 월.md",
+    "00_Planner/00_Daily/2024-04/2024-04-30 화.md",
     "10_Project-FrameWork(EPIC)/Function/FrameWork Function.md",
-    "15_FrameWork/Function of FrameWork.md",
-    "10_Project-FrameWork(EPIC)/Function/Object Document.md",
-    "10_Project-Solution/Finance/Object Money in ERP.md",
+    "00_Planner/Tasks.md",
+    "10_Project-FrameWork(EPIC)/Form 구성 과 테이블설명.md",
+    "20_EPIC Document/개발 환경.md",
+    "FRM - Form.md",
+    "10_Project-FrameWork(EPIC)/Function/_old 올드값 처리방법.md",
+    "10_Project-FrameWork(EPIC)/Function/CODE SQL/BSP_MAKE_MODEL.md",
+    "10_Project-FrameWork(EPIC)/Function/CODE SQL/BSP_MAKE_CRUD.md",
+    "75_Tutorial/Python/데이터 타입",
+    "75_Tutorial/Python",
+    "10_Project-FrameWork(EPIC)/Table(Model)/ERD - ALL",
+    "10_Project-FrameWork(EPIC)/ZZ_Archive/MindMap - FrameWork의 구조.canvas",
+    "10_Project-FrameWork(EPIC)/Table(Model)",
+    "ZZ_Files/imgs/Pasted image 20240501224558.png",
+    "10_Project-FrameWork(EPIC)/ZZ_Archive",
+    "10_Project-FrameWork(EPIC)/Project FrameWork Map.canvas",
     "10_Project-Solution/Finance",
     "10_Project-Solution",
-    "10_Project-FrameWork(EPIC)/Program List/idoMaker - Supervisor of Framework.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
-    "10_Project-FrameWork(EPIC)/Program List/ERP - FormMain.md",
     "10_Project-FrameWork(EPIC)/Program List",
-    "10_Project-FrameWork(EPIC)/Form 구성 과 테이블설명.md",
-    "10_Project-FrameWork(EPIC)/MindMap - FrameWork의 구조.canvas",
-    "10_Project-FrameWork(EPIC)/Project FrameWork Map.canvas",
-    "10_Project-FrameWork(EPIC)/Technical Structure of FrameWork.excalidraw.md",
-    "10_Project-FrameWork(EPIC)/Server Configration/Server SELENE.md",
-    "10_Project-FrameWork(EPIC)/Server Configration/Server GAIA.md",
     "10_Project-FrameWork(EPIC)/Server Configration",
-    "10_Project-FrameWork(EPIC)/Function/DbHelper 구성.md",
-    "10_Project-FrameWork(EPIC)/Asteroid.excalidraw.md",
     "00_Planner/00_Daily/무제 폴더 4",
-    "00_Planner/00_Daily/무제 폴더 3",
-    "00_Planner/00_Daily/무제 폴더 2",
-    "00_Planner/00_Daily/2025-01",
-    "00_Planner/00_Daily/2024-12",
-    "todoist-backup-2024429173552.json",
     "15_FrameWork/00_Prologue/MindMap - FrameWork의 구조 1.canvas",
     "ZZ_Files/imgs/1.png",
     "ZZ_Files/imgs/20240418_작업오더_레포트01.jpg",

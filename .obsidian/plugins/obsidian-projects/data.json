@@ -16,13 +16,15 @@
         "ZZ_Template/Project Template - FrameWork.md"
       ],
       "excludedNotes": [
-        "10_Project-FrameWork/Readme.md"
+        "10_Project-FrameWork/Readme.md",
+        "10_Project-FrameWork(EPIC)/ZZ_Archive/Asteroid.excalidraw.md",
+        "10_Project-FrameWork(EPIC)/Technical Structure of FrameWork.excalidraw.md"
       ],
       "isDefault": false,
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "10_Project-FrameWork",
+          "path": "10_Project-FrameWork(EPIC)",
           "recursive": true
         }
       },
@@ -38,14 +40,18 @@
               "Done",
               "Integration",
               "Manifestation",
-              "MDT",
               "Start Date",
               "Status",
-              "tags"
+              "tags",
+              "Discriptions",
+              "excalidraw-plugin"
             ],
             "fieldConfig": {
               "path": {
                 "width": 481
+              },
+              "name": {
+                "width": 318
               }
             }
           },
@@ -102,7 +108,60 @@
         }
       ],
       "id": "e5367df9-e4bf-4447-8175-cabe067b6123",
-      "name": "FrameWork"
+      "name": "FrameWork(EPIC)"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "ZZ_Template/Project Template - FrameWork.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "10_Project-Solution",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "436ca173-3728-4a4d-ae78-6d612d9b9c48",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "fe6e226c-897e-4784-92fe-1b9300379801",
+          "name": "KANBAN",
+          "type": "board"
+        }
+      ],
+      "id": "fa41ebbd-731a-448f-8170-7c629b1fd541",
+      "name": "Solution"
     }
   ],
   "archives": [],
@@ -111,7 +170,11 @@
     "frontmatter": {
       "quoteStrings": "PLAIN"
     },
-    "commands": [],
+    "commands": [
+      {
+        "project": "e5367df9-e4bf-4447-8175-cabe067b6123"
+      }
+    ],
     "linkBehavior": "open-editor"
   }
 }

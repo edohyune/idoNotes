@@ -1,3 +1,7 @@
+---
+{}
+---
+
 ``` SQL
 USE [master]
 GO

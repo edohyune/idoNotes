@@ -4,10 +4,9 @@ Status: In Progress
 Concept: true
 Manifestation: true
 Integration: false
-Done: 
-tags: 
+Done:
+tags:
 CDT: 2024-04-29 17:32
-MDT: 2024-04-29 17:32
 ---
 #### Prologue / Concept
 - FTP를 이용한 DLL Upload

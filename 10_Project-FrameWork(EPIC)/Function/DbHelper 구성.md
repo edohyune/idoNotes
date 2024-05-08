@@ -4,10 +4,9 @@ Status: In Progress
 Concept: true
 Manifestation: false
 Integration: false
-Done: 
-tags: 
+Done:
+tags:
 CDT: <% tp.file.creation_date() %>
-MDT: <% tp.file.last_modified_date() %>
 ---
 ---
 #### Prologue / Concept
