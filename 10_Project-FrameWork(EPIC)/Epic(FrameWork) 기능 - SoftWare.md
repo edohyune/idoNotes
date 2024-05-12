@@ -122,6 +122,7 @@ Project(FrameWork)의 세션  정보를 확인하고 로그인 처리한다.
 [[Ctrl_Check Combo Box]]
 [[Ctrl_Check Box]]
 [[Ctrl_Radio Button]]
+[[Ctrl_TAG]]
 [[Ctrl_Panel]]
 [[Ctrl_Button]]
 
@@ -136,3 +137,4 @@ Project(FrameWork)의 세션  정보를 확인하고 로그인 처리한다.
 	[[Ctrl_Image]]
 	[[Ctrl_File]]
 
+Ctrl_Doc

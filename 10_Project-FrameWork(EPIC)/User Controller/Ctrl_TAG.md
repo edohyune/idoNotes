@@ -1,8 +1,8 @@
 ---
-Start Date: 
-Status: 
-Concept: false
-Manifestation: false
+Start Date: 2024-05-08
+Status: In Progress
+Concept: true
+Manifestation: true
 Integration: false
 Done: 
 tags: 
@@ -11,6 +11,7 @@ MDT: 2024-05-08 14:36
 ---
 ---
 #### Prologue / Concept
+UCTag 형태로 구상
 
 #### Manifestation
 

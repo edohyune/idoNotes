@@ -380,6 +380,30 @@
         "url": "https://todoist.com/app/task/7967897747",
         "duration": null,
         "path": "00_Planner/00_Daily/2025-05-07 수.md"
+      },
+      {
+        "id": "7974280580",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332478962",
+        "sectionId": null,
+        "parentId": null,
+        "order": 3,
+        "content": "리플렉션을 이용한 `_old`개체를 동적으로 생성한다.",
+        "description": "[10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Function/Done/%EC%98%AC%EB%93%9C%EA%B0%92%20_old%20%EC%B2%98%EB%A6%AC%EB%B0%A9%EB%B2%95.md)",
+        "isCompleted": false,
+        "labels": [
+          "someday",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-09T06:23:41.101743Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7974280580",
+        "duration": null,
+        "path": "10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md"
       }
     ],
     "events": [
@@ -863,6 +887,24 @@
         "object_type": "item",
         "parent_item_id": null,
         "parent_project_id": "2332902285"
+      },
+      {
+        "event_date": "2024-05-09T06:28:34.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "리플렉션을 이용한 `_old`개체를 동적으로 생성한다.",
+          "description": "[10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Function/Done/%EC%98%AC%EB%93%9C%EA%B0%92%20_old%20%EC%B2%98%EB%A6%AC%EB%B0%A9%EB%B2%95.md)",
+          "last_description": "[10_Project-FrameWork(EPIC)/Function/올드값 _old 처리방법.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Function/%EC%98%AC%EB%93%9C%EA%B0%92%20_old%20%EC%B2%98%EB%A6%AC%EB%B0%A9%EB%B2%95.md)",
+          "note_count": 0
+        },
+        "extra_data_id": 23988730082,
+        "id": 23902425758,
+        "initiator_id": null,
+        "object_id": "7974280580",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332478962"
       }
     ]
   },
@@ -921,6 +963,12 @@
     "00_Planner/00_Daily/2025-05-07 수.md": {
       "todoistTasks": [
         "7967897747"
+      ],
+      "todoistCount": 1
+    },
+    "10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md": {
+      "todoistTasks": [
+        "7974280580"
       ],
       "todoistCount": 1
     }
