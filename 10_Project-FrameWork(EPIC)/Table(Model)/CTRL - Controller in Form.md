@@ -34,7 +34,7 @@ Not WorkSet
 
 컨트롤러를 셋팅한다.
 
-##### CTRLMST
+##### CTRLCLS
 CTRLMST - 사용중인 전체 컨트롤러 목록이다. 
 프로그램에서 컨트롤러를 사용하기 위해서는 여기에 우선 등록한다. 
 등록의 목적은 컨트롤러 별로 관리해야할 이슈가 있기 때문이다. 
@@ -50,7 +50,7 @@ Memo -
 PId - 연관된(선행버전) 컨트롤러 ID
 
 ```
-CTRLMST {
+CtrlCls {
 CtrlId int
 CtrlNm nvarchar(50)
 CtrlGrpCd varchar(10)
