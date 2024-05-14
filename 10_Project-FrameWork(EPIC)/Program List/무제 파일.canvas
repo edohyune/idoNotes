@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"99e128ec4b901bc2","x":10,"y":65,"width":280,"height":50,"type":"text","text":"Controller 정보 가져오기"},
+		{"id":"b3e00e4f6b4d33c8","type":"text","text":"FrmCtrl 등록\nCtrlCls의 UC값만","x":395,"y":165,"width":165,"height":145},
+		{"id":"ea7314e853f7a01f","x":590,"y":165,"width":363,"height":140,"type":"text","text":"ucform.Controls\nControl.GetType().Name"},
+		{"id":"566c55f2f696fb49","x":395,"y":425,"width":558,"height":60,"type":"text","text":"WorkSet 등록"},
+		{"id":"90a3f2a2e7f01d81","x":395,"y":-320,"width":558,"height":155,"type":"text","text":"FieldInfo[] fields = ucform.GetType().GetFields(\nBindingFlags.NonPublic | \nBindingFlags.Public | \nBindingFlags.Instance);"},
+		{"id":"dda19aa6645aac2b","x":395,"y":-140,"width":165,"height":145,"type":"text","text":"제외 처리 : BindingList\nRepo\nIContainer"},
+		{"id":"02ecd2dc7bc9f9ae","type":"text","text":"CtrlCls\n등록","x":590,"y":-140,"width":165,"height":145},
+		{"id":"cdac0424474c68ff","type":"text","text":"FrmCtrl 등록\nCtrlCls의 Field값만","x":788,"y":-140,"width":165,"height":145},
+		{"id":"38aeea1391d293a6","x":-1132,"y":-232,"width":982,"height":694,"type":"file","file":"ZZ_Files/imgs/FRMLOD구성.jpg"},
+		{"id":"9e7a83d3e21e0199","x":-1005,"y":-511,"width":154,"height":50,"type":"text","text":"Form Load"},
+		{"id":"5f8466fa30537cae","type":"text","text":"openFileDialog","x":-751,"y":-511,"width":220,"height":50},
+		{"id":"93c00febd4c778e1","x":-451,"y":-511,"width":190,"height":50,"type":"text","text":"Input Field Set"},
+		{"id":"b37e5a81ff07e067","type":"text","text":"Btn : ReLoad","x":-751,"y":-436,"width":220,"height":50},
+		{"id":"1bf110e911ce0070","type":"text","text":"Add CtrlCls","x":-451,"y":-436,"width":190,"height":50},
+		{"id":"0774c272c4b42e69","type":"text","text":"Add FrmCtrl","x":-451,"y":-370,"width":190,"height":50}
+	],
+	"edges":[
+		{"id":"866828b8dee5a7a3","fromNode":"5f8466fa30537cae","fromSide":"right","toNode":"93c00febd4c778e1","toSide":"left","color":"1"},
+		{"id":"ade936af1589fcf2","fromNode":"93c00febd4c778e1","fromSide":"right","toNode":"1bf110e911ce0070","toSide":"right","color":"1"},
+		{"id":"2b1940896798bbc5","fromNode":"1bf110e911ce0070","fromSide":"right","toNode":"0774c272c4b42e69","toSide":"right","color":"1"},
+		{"id":"05c7c6d350abff20","fromNode":"b37e5a81ff07e067","fromSide":"right","toNode":"1bf110e911ce0070","toSide":"left","color":"3"},
+		{"id":"582f7f18046a6242","fromNode":"1bf110e911ce0070","fromSide":"left","toNode":"0774c272c4b42e69","toSide":"left","color":"3"},
+		{"id":"6bbcb3f8be355d98","fromNode":"9e7a83d3e21e0199","fromSide":"right","toNode":"5f8466fa30537cae","toSide":"left"},
+		{"id":"03a1701531909bb8","fromNode":"9e7a83d3e21e0199","fromSide":"right","toNode":"b37e5a81ff07e067","toSide":"left"},
+		{"id":"7ef913edba63547d","fromNode":"99e128ec4b901bc2","fromSide":"right","toNode":"dda19aa6645aac2b","toSide":"left"},
+		{"id":"0148aabefa8e21dd","fromNode":"dda19aa6645aac2b","fromSide":"right","toNode":"02ecd2dc7bc9f9ae","toSide":"left"},
+		{"id":"6c6ac194ec562704","fromNode":"02ecd2dc7bc9f9ae","fromSide":"right","toNode":"cdac0424474c68ff","toSide":"left"},
+		{"id":"eb4639f67a2cc639","fromNode":"cdac0424474c68ff","fromSide":"bottom","toNode":"b3e00e4f6b4d33c8","toSide":"top"},
+		{"id":"af06f5baeba75088","fromNode":"b3e00e4f6b4d33c8","fromSide":"bottom","toNode":"566c55f2f696fb49","toSide":"top"}
+	]
+}

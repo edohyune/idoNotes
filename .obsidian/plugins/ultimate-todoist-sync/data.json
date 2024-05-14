@@ -404,6 +404,30 @@
         "url": "https://todoist.com/app/task/7974280580",
         "duration": null,
         "path": "10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md"
+      },
+      {
+        "id": "7988814825",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332478962",
+        "sectionId": null,
+        "parentId": null,
+        "order": 4,
+        "content": "WorkSpace 개념 도입",
+        "description": "[10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/FRM%20-%20%20Form.md)",
+        "isCompleted": false,
+        "labels": [
+          "someday",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-14T09:52:06.674703Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7988814825",
+        "duration": null,
+        "path": "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md"
       }
     ],
     "events": [
@@ -969,6 +993,12 @@
     "10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md": {
       "todoistTasks": [
         "7974280580"
+      ],
+      "todoistCount": 1
+    },
+    "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md": {
+      "todoistTasks": [
+        "7988814825"
       ],
       "todoistCount": 1
     }
