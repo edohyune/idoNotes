@@ -11,9 +11,10 @@ Tasks를 이용하여 해야 할 일을 관리한다.
 #### 할 일 (TASKS)
 
 Status가 진행되는 동안에 할 일을 만들어 기억한다.  
-[#obs는](app://obsidian.md/index.html#obs%EB%8A%94) Obsidian에서 할 일의 전체 목록이다.  
-[#someday](app://obsidian.md/index.html#someday) 는 지금 당장 하지 않아도 되는 목록이다.  
-[#todoist](app://obsidian.md/index.html#todoist) 는 모바일에서 작성하는 것을 가져오기 위해 사용한다.  
+#obj Obsidian에서 할 일의 전체 목록이다.  Project에서 사용한다. plugin(Tasks) 
+#someday #todoist 는 지금 당장 하지 않아도 되는 목록이다.  plugin(todoist)
+#memo #todoist  는 모바일 등록 또는 일회성 Task.  plugin(todoist)
+#joborder #todoist 는 작업 지시 Task. plugin(todoist)
 
 #### ToDo All
 ```tasks
@@ -30,4 +31,5 @@ done
 filter : all
 show : [description, labels]
 groupBy : project
+sort : duedate
 ```

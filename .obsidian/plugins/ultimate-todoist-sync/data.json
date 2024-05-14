@@ -1,0 +1,980 @@
+{
+  "initialized": true,
+  "apiInitialized": true,
+  "defaultProjectName": "Inbox",
+  "automaticSynchronizationInterval": 300,
+  "todoistTasksData": {
+    "projects": [
+      {
+        "id": "2331727597",
+        "parentId": null,
+        "order": 0,
+        "color": "charcoal",
+        "name": "Inbox",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": true,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2331727597",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2332478962",
+        "parentId": null,
+        "order": 1,
+        "color": "olive_green",
+        "name": "someday",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2332478962",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2332479756",
+        "parentId": null,
+        "order": 2,
+        "color": "charcoal",
+        "name": "memo",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2332479756",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2332568602",
+        "parentId": null,
+        "order": 3,
+        "color": "sky_blue",
+        "name": "joborder",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2332568602",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2332902285",
+        "parentId": null,
+        "order": 4,
+        "color": "olive_green",
+        "name": "schedule",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2332902285",
+        "viewStyle": "list"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "7943601357",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 5,
+        "content": "피트니스",
+        "description": "[00_Planner/00_Daily/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": true,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T10:36:08.735094Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7943601357",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7944904306",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 6,
+        "content": "도어라이트 교체 김울 작업실 전구 교체 25W White",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": true,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T16:55:24.005275Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7944904306",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7944905085",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 7,
+        "content": "운동시작",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": true,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T16:55:37.566747Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7944905085",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7944907404",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 8,
+        "content": "방역 견적",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": true,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T16:56:19.099956Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7944907404",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7947248538",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2331727597",
+        "sectionId": null,
+        "parentId": null,
+        "order": 5,
+        "content": "작업오더 (MM120,SO700 팝업은 MM110처럼 수정)",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": true,
+        "labels": [
+          "joborder",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-30T09:37:40.197585Z",
+        "due": {
+          "date": "2024-04-30",
+          "string": "Apr 30",
+          "lang": "en",
+          "isRecurring": false
+        },
+        "url": "https://todoist.com/app/task/7947248538",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7944908137",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332479756",
+        "sectionId": null,
+        "parentId": null,
+        "order": 7,
+        "content": "사무실 에어컨 견적",
+        "description": "[00_Planner/00_Daily/2024-04/2024-04-30 화.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-04/2024-04-30%20%ED%99%94.md)",
+        "isCompleted": true,
+        "labels": [
+          "memo",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-04-29T16:56:27.695909Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7944908137",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-04/2024-04-30 화.md"
+      },
+      {
+        "id": "7951399319",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332479756",
+        "sectionId": null,
+        "parentId": null,
+        "order": 9,
+        "content": "박부장 귀국",
+        "description": "[00_Planner/00_Daily/2024-05-05 일.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-05-05%20%EC%9D%BC.md)",
+        "isCompleted": false,
+        "labels": [
+          "memo",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-01T14:34:49.419727Z",
+        "due": {
+          "date": "2024-05-05",
+          "string": "May 5",
+          "lang": "en",
+          "isRecurring": false
+        },
+        "url": "https://todoist.com/app/task/7951399319",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-05-05 일.md"
+      },
+      {
+        "id": "7951596453",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332568602",
+        "sectionId": null,
+        "parentId": null,
+        "order": 3,
+        "content": "작업오더 수정",
+        "description": "[00_Planner/00_Daily/2024-05-02 목.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-05-02%20%EB%AA%A9.md)",
+        "isCompleted": true,
+        "labels": [
+          "joborder",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-01T15:48:57.447854Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7951596453",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-05-02 목.md"
+      },
+      {
+        "id": "7952995452",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332479756",
+        "sectionId": null,
+        "parentId": null,
+        "order": 10,
+        "content": "무좀약 사기",
+        "description": "[00_Planner/00_Daily/2024-05-02 목.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-05-02%20%EB%AA%A9.md)",
+        "isCompleted": true,
+        "labels": [
+          "memo",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-02T04:14:10.022066Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7952995452",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-05-02 목.md"
+      },
+      {
+        "id": "7956083237",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332478962",
+        "sectionId": null,
+        "parentId": null,
+        "order": 2,
+        "content": "Business Form 모듈화",
+        "description": "[10_Project-FrameWork(EPIC)/Epic(FrameWork) 기능 - SoftWare.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Epic(FrameWork)%20%EA%B8%B0%EB%8A%A5%20-%20SoftWare.md)",
+        "isCompleted": false,
+        "labels": [
+          "someday",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-03T01:22:04.174169Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7956083237",
+        "duration": null,
+        "path": "10_Project-FrameWork(EPIC)/Epic(FrameWork) 기능 - SoftWare.md"
+      },
+      {
+        "id": "7957028205",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332479756",
+        "sectionId": null,
+        "parentId": null,
+        "order": 24,
+        "content": "김우리 400만원 입금",
+        "description": "[00_Planner/00_Daily/2024-05-06 월.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2024-05-06%20%EC%9B%94.md)",
+        "isCompleted": true,
+        "labels": [
+          "memo",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-03T10:00:15.285867Z",
+        "due": {
+          "date": "2024-05-06",
+          "string": "May 6",
+          "lang": "en",
+          "isRecurring": false
+        },
+        "url": "https://todoist.com/app/task/7957028205",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2024-05-06 월.md"
+      },
+      {
+        "id": "7967897747",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332902285",
+        "sectionId": null,
+        "parentId": null,
+        "order": 1,
+        "content": "자동차 기술 점검",
+        "description": "[00_Planner/00_Daily/2025-05-07 수.md](obsidian://open?vault=idoNotes&file=00_Planner/00_Daily/2025-05-07%20%EC%88%98.md)",
+        "isCompleted": false,
+        "labels": [
+          "schedule",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-07T10:17:57.925654Z",
+        "due": {
+          "date": "2025-05-07",
+          "string": "May 7 2025",
+          "lang": "en",
+          "isRecurring": false
+        },
+        "url": "https://todoist.com/app/task/7967897747",
+        "duration": null,
+        "path": "00_Planner/00_Daily/2025-05-07 수.md"
+      },
+      {
+        "id": "7974280580",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332478962",
+        "sectionId": null,
+        "parentId": null,
+        "order": 3,
+        "content": "리플렉션을 이용한 `_old`개체를 동적으로 생성한다.",
+        "description": "[10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Function/Done/%EC%98%AC%EB%93%9C%EA%B0%92%20_old%20%EC%B2%98%EB%A6%AC%EB%B0%A9%EB%B2%95.md)",
+        "isCompleted": false,
+        "labels": [
+          "someday",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-09T06:23:41.101743Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7974280580",
+        "duration": null,
+        "path": "10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md"
+      }
+    ],
+    "events": [
+      {
+        "event_date": "2024-04-29T04:02:56.000000Z",
+        "event_type": "deleted",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5821",
+          "name": "",
+          "note_count": 0
+        },
+        "extra_data_id": 23876606980,
+        "id": 23790303752,
+        "initiator_id": null,
+        "object_id": "2332498938",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-29T03:46:49.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5821",
+          "name": "GCal",
+          "note_count": 0
+        },
+        "extra_data_id": 23876522685,
+        "id": 23790219454,
+        "initiator_id": null,
+        "object_id": "2332498938",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-28T17:40:21.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5821",
+          "name": "memo",
+          "note_count": 0
+        },
+        "extra_data_id": 23872933698,
+        "id": 23786630475,
+        "initiator_id": null,
+        "object_id": "2332479756",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-28T17:25:57.000000Z",
+        "event_type": "deleted",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5821",
+          "name": "",
+          "note_count": 0
+        },
+        "extra_data_id": 23872837059,
+        "id": 23786533845,
+        "initiator_id": null,
+        "object_id": "2332479236",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-29T17:04:37.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5826",
+          "content": "도어라이트 교체 김울 작업실 전구 교체 25W White",
+          "last_content": "도어라이트 교체",
+          "note_count": 0
+        },
+        "extra_data_id": 23884897418,
+        "id": 23798594007,
+        "initiator_id": null,
+        "object_id": "7944904306",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-04-30T09:35:12.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5835",
+          "content": "도어라이트 교체 김울 작업실 전구 교체 25W White",
+          "note_count": 0
+        },
+        "extra_data_id": 23892553391,
+        "id": 23806249940,
+        "initiator_id": null,
+        "object_id": "7944904306",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-04-30T09:33:49.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "방역 견적",
+          "note_count": 0
+        },
+        "extra_data_id": 23892540932,
+        "id": 23806237483,
+        "initiator_id": null,
+        "object_id": "7944907404",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-04-30T06:24:44.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Todoist/24.4.14",
+          "content": "운동시작",
+          "note_count": 0
+        },
+        "extra_data_id": 23890800014,
+        "id": 23804496575,
+        "initiator_id": null,
+        "object_id": "7944905085",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-04-30T06:24:42.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Todoist/24.4.14",
+          "content": "피트니스",
+          "note_count": 0
+        },
+        "extra_data_id": 23890799227,
+        "id": 23804495789,
+        "initiator_id": null,
+        "object_id": "7943601357",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-04-29T19:00:45.000000Z",
+        "event_type": "deleted",
+        "extra_data": {
+          "client": "Todoist/24.4.14",
+          "name": "",
+          "note_count": 0
+        },
+        "extra_data_id": 23886102357,
+        "id": 23799798925,
+        "initiator_id": null,
+        "object_id": "2332539993",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-29T18:59:15.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Todoist/24.4.14",
+          "name": "memory",
+          "note_count": 0
+        },
+        "extra_data_id": 23886087488,
+        "id": 23799784060,
+        "initiator_id": null,
+        "object_id": "2332539993",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-04-30T09:37:57.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5835",
+          "content": "작업오더 (MM120,SO700 팝업은 MM110처럼 수정)",
+          "due_date": "2024-04-30T16:59:59.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 23892579624,
+        "id": 23806276174,
+        "initiator_id": null,
+        "object_id": "7947248538",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2331727597"
+      },
+      {
+        "event_date": "2024-04-30T09:39:00.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5835",
+          "name": "joborder",
+          "note_count": 0
+        },
+        "extra_data_id": 23892589478,
+        "id": 23806286026,
+        "initiator_id": null,
+        "object_id": "2332568602",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-05-01T15:39:11.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5846",
+          "content": "박부장 귀국",
+          "due_date": "2024-05-05T16:59:59.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 23907131681,
+        "id": 23820828106,
+        "initiator_id": null,
+        "object_id": "7951399319",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-05-01T15:38:38.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5846",
+          "content": "무좀약 사기",
+          "due_date": "2024-05-02T16:59:59.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 23907124950,
+        "id": 23820821359,
+        "initiator_id": null,
+        "object_id": "7951569523",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-05-01T15:48:38.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "무좀약 사기",
+          "last_content": "무좀약 사기   %%[todoist_id:: 7951569523]",
+          "note_count": 0
+        },
+        "extra_data_id": 23907221324,
+        "id": 23820917736,
+        "initiator_id": null,
+        "object_id": "7951569523",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-05-01T15:48:34.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "무좀약 사기   %%[todoist_id:: 7951569523]",
+          "last_content": "무좀약 사기",
+          "note_count": 0
+        },
+        "extra_data_id": 23907220543,
+        "id": 23820916958,
+        "initiator_id": null,
+        "object_id": "7951569523",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-05-02T04:06:34.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "사무실 에어컨 견적",
+          "note_count": 0
+        },
+        "extra_data_id": 23912359409,
+        "id": 23826055800,
+        "initiator_id": null,
+        "object_id": "7944908137",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-05-02T04:06:28.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "작업오더 (MM120,SO700 팝업은 MM110처럼 수정)",
+          "note_count": 0
+        },
+        "extra_data_id": 23912358635,
+        "id": 23826055025,
+        "initiator_id": null,
+        "object_id": "7947248538",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332568602"
+      },
+      {
+        "event_date": "2024-05-02T15:21:37.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Todoist/24.4.29",
+          "content": "작업오더 수정",
+          "note_count": 0
+        },
+        "extra_data_id": 23919015044,
+        "id": 23832711338,
+        "initiator_id": null,
+        "object_id": "7951596453",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332568602"
+      },
+      {
+        "event_date": "2024-05-03T00:17:43.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5859",
+          "name": "GCal",
+          "note_count": 0
+        },
+        "extra_data_id": 23923430191,
+        "id": 23837126436,
+        "initiator_id": null,
+        "object_id": "2332705495",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-05-03T01:15:46.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "모듈화해서 Install형태로 진행할 수 있도록 한다.",
+          "description": "[10_Project-FrameWork(EPIC)/Epic(FrameWork) Server - HardWare.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Epic(FrameWork)%20Server%20-%20HardWare.md)",
+          "last_description": "[10_Project-FrameWork(EPIC)/Epic(FrameWork) HardWare - Server.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Epic(FrameWork)%20HardWare%20-%20Server.md)",
+          "note_count": 0
+        },
+        "extra_data_id": 23923702199,
+        "id": 23837398444,
+        "initiator_id": null,
+        "object_id": "7953017003",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332478962"
+      },
+      {
+        "event_date": "2024-05-03T02:09:55.000000Z",
+        "event_type": "deleted",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5859",
+          "name": "",
+          "note_count": 0
+        },
+        "extra_data_id": 23923951453,
+        "id": 23837647698,
+        "initiator_id": null,
+        "object_id": "2332705495",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-05-03T10:00:40.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5847",
+          "content": "무좀약 사기",
+          "note_count": 0
+        },
+        "extra_data_id": 23927108467,
+        "id": 23840804701,
+        "initiator_id": null,
+        "object_id": "7952995452",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-05-03T10:01:06.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5847",
+          "content": "김우리 400만원 입금",
+          "due_date": "2024-05-06T16:59:59.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 23927112569,
+        "id": 23840808803,
+        "initiator_id": null,
+        "object_id": "7957028205",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-05-03T10:13:53.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5847",
+          "content": "Business Form 모듈화",
+          "description": "[10_Project-FrameWork(EPIC)/Epic(FrameWork) 기능 - SoftWare.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Epic(FrameWork)%20%EA%B8%B0%EB%8A%A5%20-%20SoftWare.md)\nBusiness Fome은 모듈화하여 Install 형태로 설치가 가능하도록 한다.",
+          "last_description": "[10_Project-FrameWork(EPIC)/Epic(FrameWork) 기능 - SoftWare.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Epic(FrameWork)%20%EA%B8%B0%EB%8A%A5%20-%20SoftWare.md)",
+          "note_count": 0
+        },
+        "extra_data_id": 23927218507,
+        "id": 23840914751,
+        "initiator_id": null,
+        "object_id": "7956083237",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332478962"
+      },
+      {
+        "event_date": "2024-05-06T04:30:56.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Todoist/24.4.33",
+          "content": "김우리 400만원 입금",
+          "note_count": 0
+        },
+        "extra_data_id": 23950153393,
+        "id": 23863849582,
+        "initiator_id": null,
+        "object_id": "7957028205",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332479756"
+      },
+      {
+        "event_date": "2024-05-07T10:13:48.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5889",
+          "name": "schedule",
+          "note_count": 0
+        },
+        "extra_data_id": 23966644629,
+        "id": 23880340628,
+        "initiator_id": null,
+        "object_id": "2332902285",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-05-07T10:18:28.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/5889",
+          "content": "자동차 기술 점검",
+          "due_date": "2025-05-07T16:59:59.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 23966688488,
+        "id": 23880384488,
+        "initiator_id": null,
+        "object_id": "7967897747",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332902285"
+      },
+      {
+        "event_date": "2024-05-09T06:28:34.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "리플렉션을 이용한 `_old`개체를 동적으로 생성한다.",
+          "description": "[10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Function/Done/%EC%98%AC%EB%93%9C%EA%B0%92%20_old%20%EC%B2%98%EB%A6%AC%EB%B0%A9%EB%B2%95.md)",
+          "last_description": "[10_Project-FrameWork(EPIC)/Function/올드값 _old 처리방법.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Function/%EC%98%AC%EB%93%9C%EA%B0%92%20_old%20%EC%B2%98%EB%A6%AC%EB%B0%A9%EB%B2%95.md)",
+          "note_count": 0
+        },
+        "extra_data_id": 23988730082,
+        "id": 23902425758,
+        "initiator_id": null,
+        "object_id": "7974280580",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332478962"
+      }
+    ]
+  },
+  "fileMetadata": {
+    "00_Planner/00_Daily/2024-04/2024-04-30 화.md": {
+      "todoistTasks": [
+        "7944904306",
+        "7944905085",
+        "7944907404",
+        "7944908137",
+        "7947248538"
+      ],
+      "todoistCount": 5
+    },
+    "00_Planner/00_Daily/2024-05-05 일.md": {
+      "todoistTasks": [
+        "7951399319"
+      ],
+      "todoistCount": 1
+    },
+    "00_Planner/00_Daily/2024-05-09 목.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "00_Planner/00_Daily/2024-05-02 목.md": {
+      "todoistTasks": [
+        "7951596453",
+        "7952995452"
+      ],
+      "todoistCount": 2
+    },
+    "00_Planner/00_Daily/2024-05-13 월.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "00_Planner/00_Daily/2024-05-15 수.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "10_Project-FrameWork(EPIC)/Epic(FrameWork) Server - HardWare.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "10_Project-FrameWork(EPIC)/Epic(FrameWork) 기능 - SoftWare.md": {
+      "todoistTasks": [
+        "7956083237"
+      ],
+      "todoistCount": 1
+    },
+    "00_Planner/00_Daily/2024-05-06 월.md": {
+      "todoistTasks": [
+        "7957028205"
+      ],
+      "todoistCount": 1
+    },
+    "00_Planner/00_Daily/2025-05-07 수.md": {
+      "todoistTasks": [
+        "7967897747"
+      ],
+      "todoistCount": 1
+    },
+    "10_Project-FrameWork(EPIC)/Function/Done/올드값 _old 처리방법.md": {
+      "todoistTasks": [
+        "7974280580"
+      ],
+      "todoistCount": 1
+    }
+  },
+  "enableFullVaultSync": false,
+  "statistics": {},
+  "debugMode": false,
+  "todoistAPIToken": "90574ebd09db653576fa9c028533b418f315098e"
+}
