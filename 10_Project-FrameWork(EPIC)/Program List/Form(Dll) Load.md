@@ -6,8 +6,8 @@ Manifestation: false
 Integration: false
 Done: 
 tags: 
-CDT: <% tp.file.creation_date() %>
-MDT: <% tp.file.last_modified_date() %>
+CDT: 2024-05-14 22:25
+MDT: 2024-05-14 22:25
 ---
 ---
 #### Prologue / Concept

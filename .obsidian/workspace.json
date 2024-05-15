@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fac19b1304ae3987",
-        "type": "split",
+        "id": "fc435abd44f51c7b",
+        "type": "tabs",
         "children": [
           {
-            "id": "fc435abd44f51c7b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "445b4875c951f940",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "445b4875c951f940",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Standard Grid.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "173979e3ea63daa3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "956993fab1e95258",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "ZZ_Files/imgs/FRMLOD구성.jpg"
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
+                "file": "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Standard Grid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
+                "file": "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Standard Grid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md"
+                "file": "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Standard Grid.md"
               }
             }
           },
@@ -213,18 +190,22 @@
   },
   "active": "445b4875c951f940",
   "lastOpenFiles": [
-    "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md",
+    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Grid Set.md",
+    "10_Project-FrameWork(EPIC)/Program List/Form Load.canvas",
+    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Standard Grid.md",
+    "ZZ_Files/imgs/Pasted image 20240515105238.png",
     "10_Project-FrameWork(EPIC)/Program List/Form(Dll) Load.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/모델변환 - Data Type.md",
+    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Panel.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md",
     "10_Project-FrameWork(EPIC)/Form 구성 과 테이블설명.md",
-    "10_Project-FrameWork(EPIC)/Program List/무제 파일.canvas",
     "ZZ_Files/imgs/FRMLOD구성.jpg",
     "ZZ_Files/imgs/Untitled 1.png",
     "00_Start/DOC_License/VMware.md",
     "10_Project-FrameWork(EPIC)/Program List/Epic Prologue - Supervisor of Framework.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
     "10_Project-FrameWork(EPIC)/Table(Model)/FRW - FrameWork.md",
     "10_Project-FrameWork(EPIC)/Table(Model)/USR - User.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/모델변환 - Data Type.md",
     "10_Project-FrameWork(EPIC)/Table(Model)/작업할것.md",
     "10_Project-FrameWork(EPIC)/Program List/UCDoc 관리 프로그램.md",
     "10_Project-FrameWork(EPIC)/Program List/Sign In Process.md",
@@ -238,12 +219,9 @@
     "10_Project-FrameWork(EPIC)/Function/FrameWork Function.md",
     "10_Project-FrameWork(EPIC)/Program List/Designer 메뉴구성.md",
     "10_Project-FrameWork(EPIC)/Server Configration/서버 백업 및 셋팅 관련 정리 목록.md",
-    "무제 파일 1.md",
     "무제 폴더 2",
     "10_Project-FrameWork(EPIC)/Server Configration/MARS",
     "10_Project-FrameWork(EPIC)/Server Configration/GAIA",
-    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Doc.md",
-    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_TAG.md",
     "10_Project-FrameWork(EPIC)/Server Configration/SELENE",
     "10_Project-FrameWork(EPIC)/Function/Done",
     "75_Tutorial/Python/데이터 타입",
@@ -263,7 +241,6 @@
     "ZZ_Files/imgs/IMG_6869.jpeg",
     "ZZ_Files/Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
     "ZZ_Files/imgs/WhatsApp 이미지 2024-04-18, 09.03.00_2b7e6381.jpg",
-    "ZZ_Files/imgs/Pasted Image 20240417143031_368.png",
-    "IMG_6918.jpeg"
+    "ZZ_Files/imgs/Pasted Image 20240417143031_368.png"
   ]
 }
