@@ -428,6 +428,30 @@
         "url": "https://todoist.com/app/task/7988814825",
         "duration": null,
         "path": "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md"
+      },
+      {
+        "id": "7995305672",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332478962",
+        "sectionId": null,
+        "parentId": null,
+        "order": 5,
+        "content": "Dll 게시 Upload - 프레임 워크별 업로드 구현",
+        "description": "[10_Project-FrameWork(EPIC)/Program List/Form(Dll) Load.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Program%20List/Form(Dll)%20Load.md)",
+        "isCompleted": false,
+        "labels": [
+          "someday",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-16T07:29:18.994682Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/7995305672",
+        "duration": null,
+        "path": "10_Project-FrameWork(EPIC)/Program List/Form(Dll) Load.md"
       }
     ],
     "events": [
@@ -999,6 +1023,12 @@
     "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md": {
       "todoistTasks": [
         "7988814825"
+      ],
+      "todoistCount": 1
+    },
+    "10_Project-FrameWork(EPIC)/Program List/Form(Dll) Load.md": {
+      "todoistTasks": [
+        "7995305672"
       ],
       "todoistCount": 1
     }

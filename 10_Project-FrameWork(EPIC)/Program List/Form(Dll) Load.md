@@ -18,8 +18,14 @@ WorkSpace Setting
 UserId : 10020
 WorkSpace : 집, 렙탑, 등등
 Root : C:\10_Test
+![[Form Load.canvas]]
 
-![[FRMLOD구성.jpg]]
+
 #### Integration
+![[Pasted image 20240516142537.png]]
+
+- [ ] Dll 게시 Upload - 프레임 워크별 업로드 구현 #someday [link](https://todoist.com/app/task/7995305672) #todoist %%[todoist_id:: 7995305672]%% 
+
+
 
 ###### REFERENCE
