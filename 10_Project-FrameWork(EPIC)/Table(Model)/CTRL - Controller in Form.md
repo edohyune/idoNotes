@@ -9,6 +9,11 @@ tags:
 CDT: <% tp.file.creation_date() %>
 MDT: <% tp.file.last_modified_date() %>
 ---
+    CUSTOMER {
+            string name
+            string custNumber
+            string sector
+        }
 ---
 #### Prologue / Concept
 폼을 로드 하게되면 우선 폼에 등록된 정보를 가지고 온다. 

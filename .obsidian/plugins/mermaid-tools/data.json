@@ -321,102 +321,6 @@
       "isPinned": false
     },
     {
-      "id": "10eab998-51ed-4efd-b13c-0d420517cf1c",
-      "category": "EntityRelationshipDiagram",
-      "description": "a sample entity relationship diagram",
-      "content": "erDiagram\n        CUSTOMER ||--o{ ORDER : places\n        ORDER ||--|{ LINE-ITEM : contains\n        CUSTOMER }|..|{ DELIVERY-ADDRESS : uses",
-      "sortingOrder": 0,
-      "isPinned": false
-    },
-    {
-      "id": "72366571-2ad2-4a85-8dcd-55926711dd9b",
-      "category": "EntityRelationshipDiagram",
-      "description": "an entity",
-      "content": "    CUSTOMER {\n            string name\n            string custNumber\n            string sector\n        }",
-      "sortingOrder": 1,
-      "isPinned": false
-    },
-    {
-      "id": "c7290210-7304-4a87-8713-54f7f5012555",
-      "category": "EntityRelationshipDiagram",
-      "description": "one-to-many relationship",
-      "content": "A ||--|{ B : label",
-      "sortingOrder": 2,
-      "isPinned": false
-    },
-    {
-      "id": "3e70e90d-851a-4902-a632-0c24f80070de",
-      "category": "EntityRelationshipDiagram",
-      "description": "many-to-many relationship",
-      "content": "A }|--|{ B : label",
-      "sortingOrder": 3,
-      "isPinned": false
-    },
-    {
-      "id": "e6f16821-1223-468b-ab28-4b5002a799fd",
-      "category": "EntityRelationshipDiagram",
-      "description": "one-to-one relationship",
-      "content": "A ||--|| B : label",
-      "sortingOrder": 4,
-      "isPinned": false
-    },
-    {
-      "id": "ca4dd3f6-d712-4964-9990-02e923a9e71b",
-      "category": "EntityRelationshipDiagram",
-      "description": "many-to-one relationship",
-      "content": "A }|--|| B : label",
-      "sortingOrder": 5,
-      "isPinned": false
-    },
-    {
-      "id": "67055c70-7f23-4819-b24b-2f4b908b6ae8",
-      "category": "EntityRelationshipDiagram",
-      "description": "zero/one-to-one relationship",
-      "content": "A |o--|| B : label",
-      "sortingOrder": 6,
-      "isPinned": false
-    },
-    {
-      "id": "86d018cf-17d2-44ec-9b17-14f65fdecefc",
-      "category": "EntityRelationshipDiagram",
-      "description": "one-to-one/zero relationship",
-      "content": "A ||--o| B : label",
-      "sortingOrder": 7,
-      "isPinned": false
-    },
-    {
-      "id": "e8e78993-da3f-4165-b9a0-3ef8cc8690bc",
-      "category": "EntityRelationshipDiagram",
-      "description": "zero-or-more-to-one relationship",
-      "content": "A }o--|| B : label",
-      "sortingOrder": 8,
-      "isPinned": false
-    },
-    {
-      "id": "a95539b1-766e-4530-a8b1-be05341d6a80",
-      "category": "EntityRelationshipDiagram",
-      "description": "one-to-zero-or-more relationship",
-      "content": "A ||--o{ B : label",
-      "sortingOrder": 9,
-      "isPinned": false
-    },
-    {
-      "id": "891fa8e6-071c-42c9-a373-18c347e97525",
-      "category": "EntityRelationshipDiagram",
-      "description": "zero-or-more-to-many relationship",
-      "content": "A }o--|{ B : label",
-      "sortingOrder": 10,
-      "isPinned": false
-    },
-    {
-      "id": "1243be66-3c68-4620-91bf-c1b240902b48",
-      "category": "EntityRelationshipDiagram",
-      "description": "many-to-zero-or-more relationship",
-      "content": "A }|--o{ B : label",
-      "sortingOrder": 11,
-      "isPinned": false
-    },
-    {
       "id": "b27b23e9-72a9-4fe1-845e-00740935a48c",
       "category": "UserJourneyDiagram",
       "description": "a sample user journey diagram",
@@ -678,6 +582,102 @@
       "description": "sample C4 diagram (compatible with PlantUML)",
       "content": "C4Context\n\t\ttitle System Context diagram for Internet Banking System\n\t\tEnterprise_Boundary(b0, \"BankBoundary0\") {\n\t\t  Person(customerA, \"Banking Customer A\", \"A customer of the bank, with personal bank accounts.\")\n\t\t  Person(customerB, \"Banking Customer B\")\n\t\t  Person_Ext(customerC, \"Banking Customer C\", \"desc\")\n  \n\t\t  Person(customerD, \"Banking Customer D\", \"A customer of the bank, <br/> with personal bank accounts.\")\n  \n\t\t  System(SystemAA, \"Internet Banking System\", \"Allows customers to view information about their bank accounts, and make payments.\")\n  \n\t\t  Enterprise_Boundary(b1, \"BankBoundary\") {\n  \n\t\t\tSystemDb_Ext(SystemE, \"Mainframe Banking System\", \"Stores all of the core banking information about customers, accounts, transactions, etc.\")\n  \n\t\t\tSystem_Boundary(b2, \"BankBoundary2\") {\n\t\t\t  System(SystemA, \"Banking System A\")\n\t\t\t  System(SystemB, \"Banking System B\", \"A system of the bank, with personal bank accounts. next line.\")\n\t\t\t}\n  \n\t\t\tSystem_Ext(SystemC, \"E-mail system\", \"The internal Microsoft Exchange e-mail system.\")\n\t\t\tSystemDb(SystemD, \"Banking System D Database\", \"A system of the bank, with personal bank accounts.\")\n  \n\t\t\tBoundary(b3, \"BankBoundary3\", \"boundary\") {\n\t\t\t  SystemQueue(SystemF, \"Banking System F Queue\", \"A system of the bank.\")\n\t\t\t  SystemQueue_Ext(SystemG, \"Banking System G Queue\", \"A system of the bank, with personal bank accounts.\")\n\t\t\t}\n\t\t  }\n\t\t}\n  \n\t\tBiRel(customerA, SystemAA, \"Uses\")\n\t\tBiRel(SystemAA, SystemE, \"Uses\")\n\t\tRel(SystemAA, SystemC, \"Sends e-mails\", \"SMTP\")\n\t\tRel(SystemC, customerA, \"Sends e-mails to\")\n  \n\t\tUpdateElementStyle(customerA, $fontColor=\"red\", $bgColor=\"grey\", $borderColor=\"red\")\n\t\tUpdateRelStyle(customerA, SystemAA, $textColor=\"blue\", $lineColor=\"blue\", $offsetX=\"5\")\n\t\tUpdateRelStyle(SystemAA, SystemE, $textColor=\"blue\", $lineColor=\"blue\", $offsetY=\"-10\")\n\t\tUpdateRelStyle(SystemAA, SystemC, $textColor=\"blue\", $lineColor=\"blue\", $offsetY=\"-40\", $offsetX=\"-50\")\n\t\tUpdateRelStyle(SystemC, customerA, $textColor=\"red\", $lineColor=\"red\", $offsetX=\"-50\", $offsetY=\"20\")\n  \n\t\tUpdateLayoutConfig($c4ShapeInRow=\"3\", $c4BoundaryInRow=\"1\")",
       "sortingOrder": 1,
+      "isPinned": false
+    },
+    {
+      "id": "10eab998-51ed-4efd-b13c-0d420517cf1c",
+      "category": "EntityRelationshipDiagram",
+      "description": "a sample entity relationship diagram",
+      "content": "erDiagram\n        CUSTOMER ||--o{ ORDER : places\n        ORDER ||--|{ LINE-ITEM : contains\n        CUSTOMER }|..|{ DELIVERY-ADDRESS : uses",
+      "sortingOrder": 0,
+      "isPinned": false
+    },
+    {
+      "id": "72366571-2ad2-4a85-8dcd-55926711dd9b",
+      "category": "EntityRelationshipDiagram",
+      "description": "an entity",
+      "content": "    CUSTOMER {\n            string name\n            string custNumber\n            string sector\n        }",
+      "sortingOrder": 1,
+      "isPinned": false
+    },
+    {
+      "id": "c7290210-7304-4a87-8713-54f7f5012555",
+      "category": "EntityRelationshipDiagram",
+      "description": "one-to-many relationship",
+      "content": "A ||--|{ B : label",
+      "sortingOrder": 2,
+      "isPinned": false
+    },
+    {
+      "id": "3e70e90d-851a-4902-a632-0c24f80070de",
+      "category": "EntityRelationshipDiagram",
+      "description": "many-to-many relationship",
+      "content": "A }|--|{ B : label",
+      "sortingOrder": 3,
+      "isPinned": false
+    },
+    {
+      "id": "e6f16821-1223-468b-ab28-4b5002a799fd",
+      "category": "EntityRelationshipDiagram",
+      "description": "one-to-one relationship",
+      "content": "A ||--|| B : label",
+      "sortingOrder": 4,
+      "isPinned": false
+    },
+    {
+      "id": "ca4dd3f6-d712-4964-9990-02e923a9e71b",
+      "category": "EntityRelationshipDiagram",
+      "description": "many-to-one relationship",
+      "content": "A }|--|| B : label",
+      "sortingOrder": 6,
+      "isPinned": false
+    },
+    {
+      "id": "67055c70-7f23-4819-b24b-2f4b908b6ae8",
+      "category": "EntityRelationshipDiagram",
+      "description": "zero/one-to-one relationship",
+      "content": "A |o--|| B : label",
+      "sortingOrder": 5,
+      "isPinned": false
+    },
+    {
+      "id": "86d018cf-17d2-44ec-9b17-14f65fdecefc",
+      "category": "EntityRelationshipDiagram",
+      "description": "one-to-one/zero relationship",
+      "content": "A ||--o| B : label",
+      "sortingOrder": 7,
+      "isPinned": false
+    },
+    {
+      "id": "e8e78993-da3f-4165-b9a0-3ef8cc8690bc",
+      "category": "EntityRelationshipDiagram",
+      "description": "zero-or-more-to-one relationship",
+      "content": "A }o--|| B : label",
+      "sortingOrder": 8,
+      "isPinned": false
+    },
+    {
+      "id": "a95539b1-766e-4530-a8b1-be05341d6a80",
+      "category": "EntityRelationshipDiagram",
+      "description": "one-to-zero-or-more relationship",
+      "content": "A ||--o{ B : label",
+      "sortingOrder": 9,
+      "isPinned": false
+    },
+    {
+      "id": "891fa8e6-071c-42c9-a373-18c347e97525",
+      "category": "EntityRelationshipDiagram",
+      "description": "zero-or-more-to-many relationship",
+      "content": "A }o--|{ B : label",
+      "sortingOrder": 10,
+      "isPinned": false
+    },
+    {
+      "id": "1243be66-3c68-4620-91bf-c1b240902b48",
+      "category": "EntityRelationshipDiagram",
+      "description": "many-to-zero-or-more relationship",
+      "content": "A }|--o{ B : label",
+      "sortingOrder": 11,
       "isPinned": false
     },
     {

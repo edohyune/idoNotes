@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/ZZ_Archive/FTP, IIS, 게시.md",
+                "file": "10_Project-FrameWork(EPIC)/Table(Model)/모델변환 - Data Type.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "706aef69e219ff6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Project-FrameWork(EPIC)/Table(Model)/00_GAIA - ERD(Form Development).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a474e16a35170fbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Planner/00_Daily/2024-05-20 월.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PropertyGroup",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 200
   },
   "right": {
     "id": "14934f9a276032c7",
@@ -90,7 +115,7 @@
       {
         "id": "6e91b013c0adf307",
         "type": "tabs",
-        "dimension": 70.39930555555556,
+        "dimension": 61.724806201550386,
         "children": [
           {
             "id": "3fead0e9149517fa",
@@ -98,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/ZZ_Archive/FTP, IIS, 게시.md",
+                "file": "00_Planner/00_Daily/2024-05-20 월.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/ZZ_Archive/FTP, IIS, 게시.md",
+                "file": "00_Planner/00_Daily/2024-05-20 월.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/ZZ_Archive/FTP, IIS, 게시.md"
+                "file": "00_Planner/00_Daily/2024-05-20 월.md"
               }
             }
           },
@@ -155,7 +180,7 @@
             }
           },
           {
-            "id": "7ace38cd78c9eb21",
+            "id": "69b8ad99ca04c79f",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -163,12 +188,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "77b22ab6d1cbf416",
         "type": "tabs",
-        "dimension": 29.600694444444443,
+        "dimension": 38.275193798449614,
         "children": [
           {
             "id": "92e794cdd44c9e9c",
@@ -182,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5,
-    "collapsed": true
+    "width": 232.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,41 +224,43 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "445b4875c951f940",
+  "active": "a474e16a35170fbc",
   "lastOpenFiles": [
+    "ZZ_Files/imgs/Pasted image 20240519231832.png",
+    "ZZ_Files/imgs/Pasted image 20240519231700.png",
+    "00_Planner/00_Daily/2024-05-20 월.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/00_GAIA - ERD(Form Development).md",
+    "10_Project-FrameWork(EPIC)/수정방법.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md",
+    "10_Project-FrameWork(EPIC)/Form 구성 과 테이블설명.md",
+    "10_Project-FrameWork(EPIC)/Function/FrameWork Function.md",
+    "10_Project-FrameWork(EPIC)/Function/DLL Upload & Respons.md",
+    "10_Project-FrameWork(EPIC)/Function/DbHelper 구성.md",
+    "10_Project-FrameWork(EPIC)/Function/Basic Procedure Setting.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/모델변환 - Data Type.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/작업할것.md",
+    "10_Project-FrameWork(EPIC)/User Controller/Controls, Components, Data Binding.md",
+    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Field Set.md",
+    "GenFunc.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/FRW - FrameWork.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/USR - User.md",
+    "10_Project-FrameWork(EPIC)/ZZ_Archive/FTP, IIS, 게시.md",
     "ZZ_Files/imgs/Pasted image 20240518124545.png",
     "ZZ_Files/imgs/Pasted image 20240518124501.png",
     "ZZ_Files/imgs/Pasted image 20240518124355.png",
-    "10_Project-FrameWork(EPIC)/User Controller/Controls, Components, Data Binding.md",
-    "10_Project-FrameWork(EPIC)/ZZ_Archive/FTP, IIS, 게시.md",
     "10_Project-FrameWork(EPIC)/Program List/ERP - FormMain.md",
     "10_Project-FrameWork(EPIC)/Program List/Form(Dll) Load.md",
     "10_Project-FrameWork(EPIC)/Program List/Form Load.canvas",
     "10_Project-FrameWork(EPIC)/ZZ_Archive/Asteroid.excalidraw.md",
     "10_Project-FrameWork(EPIC)/Epic(FrameWork) 기능 - SoftWare.md",
     "10_Project-FrameWork(EPIC)/Epic(FrameWork) Server - HardWare.md",
-    "10_Project-FrameWork(EPIC)/Form 구성 과 테이블설명.md",
     "10_Project-FrameWork(EPIC)/Program List/Epic Prologue - Supervisor of Framework.md",
     "10_Project-FrameWork(EPIC)/Program List/UCDoc 관리 프로그램.md",
-    "10_Project-FrameWork(EPIC)/Program List/Sign In Process.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/FRW - FrameWork.md",
-    "GenFunc.md",
     "ZZ_Files/imgs/Pasted image 20240516142537.png",
     "ZZ_Files/imgs/FRMLOD구성.jpg",
-    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Standard Grid.md",
-    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Grid Set.md",
     "ZZ_Files/imgs/Pasted image 20240515105238.png",
-    "10_Project-FrameWork(EPIC)/Table(Model)/모델변환 - Data Type.md",
-    "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Panel.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/CTRL - Controller in Form.md",
     "ZZ_Files/imgs/Untitled 1.png",
-    "00_Start/DOC_License/VMware.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/USR - User.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/작업할것.md",
-    "15_FrameWork/EPIC의 구성요소.md",
-    "00_Start/Guide Of Documentation.md",
-    "00_Start/Keep & Linked.md",
     "무제 폴더 2",
     "10_Project-FrameWork(EPIC)/Server Configration/MARS",
     "10_Project-FrameWork(EPIC)/Server Configration/GAIA",
@@ -252,8 +278,6 @@
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "15_FrameWork/00_Prologue/MindMap - FrameWork의 구조 1.canvas",
-    "ZZ_Files/imgs/1.png",
-    "ZZ_Files/imgs/20240418_작업오더_레포트01.jpg",
-    "ZZ_Files/imgs/IMG_6869.jpeg"
+    "ZZ_Files/imgs/1.png"
   ]
 }
