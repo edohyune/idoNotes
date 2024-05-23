@@ -452,6 +452,30 @@
         "url": "https://todoist.com/app/task/7995305672",
         "duration": null,
         "path": "10_Project-FrameWork(EPIC)/Program List/Form(Dll) Load.md"
+      },
+      {
+        "id": "8009132458",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332478962",
+        "sectionId": null,
+        "parentId": null,
+        "order": 6,
+        "content": "FldTab 등 컨트롤러별 추가 속성에 대한 정의",
+        "description": "[10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD - Field in WorkSet.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD%20-%20Field%20in%20WorkSet.md)",
+        "isCompleted": false,
+        "labels": [
+          "someday",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-21T09:33:39.532282Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/8009132458",
+        "duration": null,
+        "path": "10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD - Field in WorkSet.md"
       }
     ],
     "events": [
@@ -1029,6 +1053,12 @@
     "10_Project-FrameWork(EPIC)/Program List/Form(Dll) Load.md": {
       "todoistTasks": [
         "7995305672"
+      ],
+      "todoistCount": 1
+    },
+    "10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD - Field in WorkSet.md": {
+      "todoistTasks": [
+        "8009132458"
       ],
       "todoistCount": 1
     }

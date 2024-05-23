@@ -251,6 +251,37 @@ ToolNm varchar(20)
 ##### CTRLMAP - WorkSet 구성요소
 #### Integration
 
+##### CTRLMST
+
+
+![[Pasted image 20240522153510.png]]
+
+컨트롤러를 구분하는 방법
+
+ContainYn - 재귀함수의 실행 여부를 판단.
+```C#
+Assembly assembly = AppDomain.CurrentDomain.Load(File.ReadAllBytes($"{selectedFrwFrm.FilePath}\\{selectedFrwFrm.FileNm}"));
+var ty = assembly.GetType(selectedFrwFrm.NmSpace);
+ucform = (UserControl)Activator.CreateInstance(ty);
+
+foreach (var ctrl in ucform.Controls)
+{
+	..컨트롤러 정보읽기의 한계점 - 부모만 읽는다.
+	ctrl.GetType().Name
+}
+```
+
+CustomYn - 컨트롤러가 폼에 생성될때 Title, Color, Align 등 정보를 받아온다. 
+CtrlGrpCd - Bind는 FieldSet에서 Binding할 수 있는 컨트롤러이다. 
+
+SplitContainer는 사용을 하지만 
+FRMCTRL에서 WRKFLD로 전환되는 단계에서 
+Bind는 삭제 업데이트할때 주의 할 필요가 있다. 
+
+
+
+
+
 ###### REFERENCE
 
 

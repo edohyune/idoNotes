@@ -12,6 +12,77 @@ MDT: <% tp.file.last_modified_date() %>
 ---
 #### Prologue / Concept
 
+##### Collection Select Type
+`public List<FrmWrk> GetByFrwFrm(string frwId, string frmId)
+```C#
+string sql = @"
+";
+using (var db = new Lib.GaiaHelper())
+{
+	var result = db.Query<FrmWrk>(sql, new { FrwId = frwId, FrmId = frmId }).ToList();
+
+	if (result == null)
+	{
+		throw new KeyNotFoundException($"A record with the code {frwId},{frmId} was not found.");
+	}
+	else
+	{
+		foreach (var item in result)
+		{
+			item.ChangedFlag = MdlState.None;
+		}
+		return result;
+	}
+}
+```
+
+##### Select Type
+`public FrmWrk GetByFrwFrm(string frwId, string frmId)
+```C#
+string sql = @"
+";
+using (var db = new Lib.GaiaHelper())
+{
+	var result = db.Query<WrkSql>(sql, new { FrwId = frwId, FrmId = frmId, WrkId = wrkId, CRUDM = crudm }).SingleOrDefault();
+
+	if (result == null)
+	{
+		throw new KeyNotFoundException($"A record with the code {frwId},{frmId},{wrkId},{crudm} was not found.");
+	}
+	else
+	{
+		result.ChangedFlag = MdlState.None;
+		return result;
+	}
+}
+```
+
+##### Execute Query : Object
+`public void Add(WrkSql wrkSql)
+```C#
+string sql = @"
+@CId, getdate(), @MId, getdate()
+";
+using (var db = new Lib.GaiaHelper())
+{
+	db.OpenExecute(sql, frmCtrl);
+}
+```
+
+##### Execute Query : Element
+`public void Delete(string abc, string def, string ghi)
+```C#
+string sql = @"
+";
+using (var db = new Lib.GaiaHelper())
+{
+	db.OpenExecute(sql, new { FrwId = abc, FrmId = def, CtrlNm = ghi });
+}
+```
+
+
+
+
 #### Manifestation
 
 
