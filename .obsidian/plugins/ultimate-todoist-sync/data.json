@@ -476,6 +476,30 @@
         "url": "https://todoist.com/app/task/8009132458",
         "duration": null,
         "path": "10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD - Field in WorkSet.md"
+      },
+      {
+        "id": "8018333459",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332478962",
+        "sectionId": null,
+        "parentId": null,
+        "order": 7,
+        "content": "인터페이스를 활용하여 다른 데이터베이스로 확장",
+        "description": "[10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md)",
+        "isCompleted": false,
+        "labels": [
+          "someday",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-24T05:02:33.550900Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/8018333459",
+        "duration": null,
+        "path": "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md"
       }
     ],
     "events": [
@@ -1059,6 +1083,12 @@
     "10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD - Field in WorkSet.md": {
       "todoistTasks": [
         "8009132458"
+      ],
+      "todoistCount": 1
+    },
+    "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md": {
+      "todoistTasks": [
+        "8018333459"
       ],
       "todoistCount": 1
     }

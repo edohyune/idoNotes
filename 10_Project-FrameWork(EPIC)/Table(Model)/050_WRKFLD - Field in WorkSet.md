@@ -64,7 +64,13 @@ select FrwId, FrmId,
 #### Integration
 
 CtrlTy = Binding, Column, null
-FldTy = Text, TextButton, Combo, Code, Date
+FldTy
+	1. DataType에 따른 Format이 결정
+		1. Decimal, Int, Date, DateTime
+	2. Data입력방식에 따른 결정
+		1. Text, TextButton, Combo, Code, Date
+	3. 컬럼의 DisplayFormat 입력
+		1. column.DisplayFormat.FormatString
 
 ##### Table
 ```mermaid
