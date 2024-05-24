@@ -135,5 +135,29 @@ delete
 
 
 #### Integration
+```SQL
+if exists(select 1 from WRKSQL where FrwId=@FrwId and FrmId=@FrmId and WrkId=@WrkId and CRUDM=@CRUDM)
+begin 
+    update a
+       set Query= @Query,
+           Memo= @Memo,
+           PId= @PId,
+           MId= @MId,
+           MDt= getdate()
+      from WRKSQL a
+     where 1=1
+       and Id = @Id
+end else begin 
+    insert into WRKSQL
+          (FrwId, FrmId, WrkId, CRUDM, Query,
+           Memo, PId, CId, CDt,
+           MId, MDt)
+    select @FrwId, @FrmId, @WrkId, @CRUDM, @Query,
+           @Memo, @PId, 
+           @CId, getdate(), @MId, getdate()
+end 
+```
+
+
 
 ###### REFERENCE

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md",
+                "file": "00_Planner/00_Daily/2024-05-25 토.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md",
+                "file": "00_Planner/00_Daily/2024-05-25 토.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md",
+                "file": "00_Planner/00_Daily/2024-05-25 토.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md"
+                "file": "00_Planner/00_Daily/2024-05-25 토.md"
               }
             }
           },
@@ -207,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5,
-    "collapsed": true
+    "width": 232.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,8 +226,13 @@
   },
   "active": "fdc64039ebde7a86",
   "lastOpenFiles": [
-    "GitHub Epic Prologue.md",
+    "ZZ_Files/imgs/Pasted image 20240524231410.png",
+    "10_Project-FrameWork(EPIC)/Table(Model)/WRKSQL.md",
+    "00_Planner/00_Daily/2024-05-25 토.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/041_FRMWRK - WorkSet in Form.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST - Code Master.md",
     "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md",
+    "GitHub Epic Prologue.md",
     "ChatGPT4o.md",
     "10_Project-FrameWork(EPIC)/Epic(FrameWork) Server - HardWare.md",
     "10_Project-FrameWork(EPIC)/Epic(FrameWork) 기능 - SoftWare.md",
@@ -241,7 +245,6 @@
     "10_Project-FrameWork(EPIC)/User Controller/Archve/Ctrl_Text Box.md",
     "10_Project-FrameWork(EPIC)/Table(Model)/061_WRKGET - Pull Parameters in WorkSet.md",
     "10_Project-FrameWork(EPIC)/Table(Model)/042_FRMCTRL - Controller in Form.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/041_FRMWRK - WorkSet in Form.md",
     "10_Project-FrameWork(EPIC)/Table(Model)/030_FRWFRM - From in FrameWork.md",
     "10_Project-FrameWork(EPIC)/Table(Model)/020_PRJFRW - FrameWork in Project.md",
     "10_Project-FrameWork(EPIC)/Table(Model)/010_PRJMST - List of Project.md",
@@ -250,10 +253,6 @@
     "10_Project-FrameWork(EPIC)/Program List/Epic Prologue - Supervisor of Framework.md",
     "10_Project-FrameWork(EPIC)/Program List/ERP - FormMain.md",
     "10_Project-FrameWork(EPIC)/Program List/Form Load.canvas",
-    "10_Project-FrameWork(EPIC)/Program List/Form(Dll) Load.md",
-    "10_Project-FrameWork(EPIC)/Program List/Sign In Process.md",
-    "10_Project-FrameWork(EPIC)/Program List/UCDoc 관리 프로그램.md",
-    "10_Project-FrameWork(EPIC)/Program List/WRPREPO.md",
     "ZZ_Files/imgs/Pasted image 20240522234306.png",
     "ZZ_Files/imgs/Pasted image 20240522153510.png",
     "10_Project-FrameWork(EPIC)/FRMCTRLWRKFLD 관계도.canvas",

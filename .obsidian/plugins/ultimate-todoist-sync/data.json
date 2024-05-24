@@ -500,6 +500,30 @@
         "url": "https://todoist.com/app/task/8018333459",
         "duration": null,
         "path": "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md"
+      },
+      {
+        "id": "8018775531",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2332478962",
+        "sectionId": null,
+        "parentId": null,
+        "order": 8,
+        "content": "Code System을 구성하면 CDEMST를 View로 구성",
+        "description": "[10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST - Code Master.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST%20-%20Code%20Master.md)",
+        "isCompleted": false,
+        "labels": [
+          "someday",
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "48928829",
+        "createdAt": "2024-05-24T08:37:24.955196Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/8018775531",
+        "duration": null,
+        "path": "10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST - Code Master.md"
       }
     ],
     "events": [
@@ -1089,6 +1113,12 @@
     "10_Project-FrameWork(EPIC)/ZZ_Archive/DBHelper.md": {
       "todoistTasks": [
         "8018333459"
+      ],
+      "todoistCount": 1
+    },
+    "10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST - Code Master.md": {
+      "todoistTasks": [
+        "8018775531"
       ],
       "todoistCount": 1
     }
