@@ -15,15 +15,16 @@ MDT: <% tp.file.last_modified_date() %>
 #### Manifestation
 
 WRKFLD
-```SQL
+```mermaid
+erDiagram
 WRKGET {
 FrwId varchar(20)
 FrmId varchar(20)
 WrkId varchar(50)
-CtrlNm varchar(50)
-ParamWrk varchar(50)
-ParamName varchar(50)
-ParamValue varchar(50)
+FldNm varchar(50)
+GetWrkId varchar(50)
+GetFldNm varchar(50)
+GetDefalueValue varchar(50)
 SqlId varchar(50)
 Id bigint
 PId bigint
@@ -52,32 +53,32 @@ public string WrkId
     set => Set(ref _WrkId, value);
 }
 
-private string _CtrlNm;
-public string CtrlNm
+private string _FldNm;
+public string FldNm
 {
-    get => _CtrlNm;
-    set => Set(ref _CtrlNm, value);
+    get => _FldNm;
+    set => Set(ref _FldNm, value);
 }
 
-private string _ParamWrk;
-public string ParamWrk
+private string _GetWrkId;
+public string GetWrkId
 {
-    get => _ParamWrk;
-    set => Set(ref _ParamWrk, value);
+    get => _GetWrkId;
+    set => Set(ref _GetWrkId, value);
 }
 
-private string _ParamName;
-public string ParamName
+private string _GetFldNm;
+public string GetFldNm
 {
-    get => _ParamName;
-    set => Set(ref _ParamName, value);
+    get => _GetFldNm;
+    set => Set(ref _GetFldNm, value);
 }
 
-private string _ParamValue;
-public string ParamValue
+private string _GetDefalueValue;
+public string GetDefalueValue
 {
-    get => _ParamValue;
-    set => Set(ref _ParamValue, value);
+    get => _GetDefalueValue;
+    set => Set(ref _GetDefalueValue, value);
 }
 
 private string _SqlId;
@@ -104,32 +105,31 @@ public long PId
 ```
 
 ```SQL
-select a.FrwId, a.FrmId, a.WrkId, a.CtrlNm, a.ParamWrk,
-       a.ParamName, a.ParamValue, a.SqlId, a.Id, a.PId,
+select a.FrwId, a.FrmId, a.WrkId, a.FldNm, a.GetWrkId,
+       a.GetFldNm, a.GetDefalueValue, a.SqlId, a.Id, a.PId,
        a.CId, a.CDt, a.MId, a.MDt
   from WRKGET a
  where 1=1
-   and a.CtrlNm = @CtrlNm
+   and a.FldNm = @FldNm
    and a.FrmId = @FrmId
    and a.FrwId = @FrwId
    and a.WrkId = @WrkId
    
 insert into WRKGET
-      (FrwId, FrmId, WrkId, CtrlNm, ParamWrk,
-       ParamName, ParamValue, SqlId, Id, PId,
+      (FrwId, FrmId, WrkId, FldNm, GetWrkId,
+       GetFldNm, GetDefalueValue, SqlId, Id, PId,
        CId, CDt, MId, MDt)
-select @FrwId, @FrmId, @WrkId, @CtrlNm, @ParamWrk,
-       @ParamName, @ParamValue, @SqlId, @Id, @PId,
+select @FrwId, @FrmId, @WrkId, @FldNm, @GetWrkId,
+       @GetFldNm, @GetDefalueValue, @SqlId, @Id, @PId,
        @CId, @CDt, @MId, @MDt
-       
 update a
    set FrwId= @FrwId,
        FrmId= @FrmId,
        WrkId= @WrkId,
-       CtrlNm= @CtrlNm,
-       ParamWrk= @ParamWrk,
-       ParamName= @ParamName,
-       ParamValue= @ParamValue,
+       FldNm= @FldNm,
+       GetWrkId= @GetWrkId,
+       GetFldNm= @GetFldNm,
+       GetDefalueValue= @GetDefalueValue,
        SqlId= @SqlId,
        Id= @Id,
        PId= @PId,
@@ -139,15 +139,14 @@ update a
        MDt= @MDt
   from WRKGET a
  where 1=1
-   and CtrlNm = @CtrlNm_old
+   and FldNm = @FldNm_old
    and FrmId = @FrmId_old
    and FrwId = @FrwId_old
    and WrkId = @WrkId_old
-   
 delete
   from WRKGET
  where 1=1
-   and CtrlNm = @CtrlNm_old
+   and FldNm = @FldNm_old
    and FrmId = @FrmId_old
    and FrwId = @FrwId_old
    and WrkId = @WrkId_old

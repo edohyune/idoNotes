@@ -510,7 +510,7 @@
         "parentId": null,
         "order": 8,
         "content": "Code System을 구성하면 CDEMST를 View로 구성",
-        "description": "[10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST - Code Master.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST%20-%20Code%20Master.md)",
+        "description": "[10_Project-FrameWork(EPIC)/Table(Model)/021_FrwCde - Code Master.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/021_FrwCde%20-%20Code%20Master.md)",
         "isCompleted": false,
         "labels": [
           "someday",
@@ -523,7 +523,7 @@
         "due": null,
         "url": "https://todoist.com/app/task/8018775531",
         "duration": null,
-        "path": "10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST - Code Master.md"
+        "path": "10_Project-FrameWork(EPIC)/Table(Model)/021_FrwCde - Code Master.md"
       }
     ],
     "events": [
@@ -1025,6 +1025,42 @@
         "object_type": "item",
         "parent_item_id": null,
         "parent_project_id": "2332478962"
+      },
+      {
+        "event_date": "2024-06-02T10:46:51.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "Code System을 구성하면 CDEMST를 View로 구성",
+          "description": "[10_Project-FrameWork(EPIC)/Table(Model)/021_FrwCde - Code Master.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/021_FrwCde%20-%20Code%20Master.md)",
+          "last_description": "[10_Project-FrameWork(EPIC)/Table(Model)/000_FrwCde - Code Master.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/000_FrwCde%20-%20Code%20Master.md)",
+          "note_count": 0
+        },
+        "extra_data_id": 24240341184,
+        "id": 24154034864,
+        "initiator_id": null,
+        "object_id": "8018775531",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332478962"
+      },
+      {
+        "event_date": "2024-06-02T10:46:25.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "Code System을 구성하면 CDEMST를 View로 구성",
+          "description": "[10_Project-FrameWork(EPIC)/Table(Model)/000_FrwCde - Code Master.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/000_FrwCde%20-%20Code%20Master.md)",
+          "last_description": "[10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST - Code Master.md](obsidian://open?vault=idoNotes&file=10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST%20-%20Code%20Master.md)",
+          "note_count": 0
+        },
+        "extra_data_id": 24240338782,
+        "id": 24154032462,
+        "initiator_id": null,
+        "object_id": "8018775531",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2332478962"
       }
     ]
   },
@@ -1116,7 +1152,7 @@
       ],
       "todoistCount": 1
     },
-    "10_Project-FrameWork(EPIC)/Table(Model)/000_CDEMST - Code Master.md": {
+    "10_Project-FrameWork(EPIC)/Table(Model)/021_FrwCde - Code Master.md": {
       "todoistTasks": [
         "8018775531"
       ],

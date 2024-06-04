@@ -14,16 +14,17 @@ MDT: <% tp.file.last_modified_date() %>
 
 #### Manifestation
 
-WRKFLD
-```SQL
+```mermaid
+erDiagram
 WRKSET {
 FrwId varchar(20)
 FrmId varchar(20)
 WrkId varchar(50)
-CtrlNm varchar(50)
-ParamWrk int
-ParamName int
-ParamValue int
+FldNm varchar(50)
+SetWrkId varchar(50)
+SetFldNm varchar(50)
+SetDefaultValue varchar(50)
+SqlId varchar(50)
 Id bigint
 Pid bigint
 }
@@ -51,32 +52,39 @@ public string WrkId
     set => Set(ref _WrkId, value);
 }
 
-private string _CtrlNm;
-public string CtrlNm
+private string _FldNm;
+public string FldNm
 {
-    get => _CtrlNm;
-    set => Set(ref _CtrlNm, value);
+    get => _FldNm;
+    set => Set(ref _FldNm, value);
 }
 
-private int _ParamWrk;
-public int ParamWrk
+private string _SetWrkId;
+public string SetWrkId
 {
-    get => _ParamWrk;
-    set => Set(ref _ParamWrk, value);
+    get => _SetWrkId;
+    set => Set(ref _SetWrkId, value);
 }
 
-private int _ParamName;
-public int ParamName
+private string _SetFldNm;
+public string SetFldNm
 {
-    get => _ParamName;
-    set => Set(ref _ParamName, value);
+    get => _SetFldNm;
+    set => Set(ref _SetFldNm, value);
 }
 
-private int _ParamValue;
-public int ParamValue
+private string _SetDefaultValue;
+public string SetDefaultValue
 {
-    get => _ParamValue;
-    set => Set(ref _ParamValue, value);
+    get => _SetDefaultValue;
+    set => Set(ref _SetDefaultValue, value);
+}
+
+private string _SqlId;
+public string SqlId
+{
+    get => _SqlId;
+    set => Set(ref _SqlId, value);
 }
 
 private long _Id;
@@ -93,35 +101,35 @@ public long Pid
     set => Set(ref _Pid, value);
 }
 
+
 ```
 
 ```SQL
-select a.FrwId, a.FrmId, a.WrkId, a.CtrlNm, a.ParamWrk,
-       a.ParamName, a.ParamValue, a.Id, a.Pid, a.CId,
-       a.CDt, a.MId, a.MDt
+select a.FrwId, a.FrmId, a.WrkId, a.FldNm, a.SetWrkId,
+       a.SetFldNm, a.SetDefaultValue, a.SqlId, a.Id, a.Pid,
+       a.CId, a.CDt, a.MId, a.MDt
   from WRKSET a
  where 1=1
-   and a.CtrlNm = @CtrlNm
+   and a.FldNm = @FldNm
    and a.FrmId = @FrmId
    and a.FrwId = @FrwId
    and a.WrkId = @WrkId
-   
 insert into WRKSET
-      (FrwId, FrmId, WrkId, CtrlNm, ParamWrk,
-       ParamName, ParamValue, Id, Pid, CId,
-       CDt, MId, MDt)
-select @FrwId, @FrmId, @WrkId, @CtrlNm, @ParamWrk,
-       @ParamName, @ParamValue, @Id, @Pid, 
+      (FrwId, FrmId, WrkId, FldNm, SetWrkId,
+       SetFldNm, SetDefaultValue, SqlId, Id, Pid,
+       CId, CDt, MId, MDt)
+select @FrwId, @FrmId, @WrkId, @FldNm, @SetWrkId,
+       @SetFldNm, @SetDefaultValue, @SqlId, @Id, @Pid,
        @CId, @CDt, @MId, @MDt
-       
 update a
    set FrwId= @FrwId,
        FrmId= @FrmId,
        WrkId= @WrkId,
-       CtrlNm= @CtrlNm,
-       ParamWrk= @ParamWrk,
-       ParamName= @ParamName,
-       ParamValue= @ParamValue,
+       FldNm= @FldNm,
+       SetWrkId= @SetWrkId,
+       SetFldNm= @SetFldNm,
+       SetDefaultValue= @SetDefaultValue,
+       SqlId= @SqlId,
        Id= @Id,
        Pid= @Pid,
        CId= @CId,
@@ -130,14 +138,14 @@ update a
        MDt= @MDt
   from WRKSET a
  where 1=1
-   and CtrlNm = @CtrlNm_old
+   and FldNm = @FldNm_old
    and FrmId = @FrmId_old
    and FrwId = @FrwId_old
    and WrkId = @WrkId_old
 delete
   from WRKSET
  where 1=1
-   and CtrlNm = @CtrlNm_old
+   and FldNm = @FldNm_old
    and FrmId = @FrmId_old
    and FrwId = @FrwId_old
    and WrkId = @WrkId_old

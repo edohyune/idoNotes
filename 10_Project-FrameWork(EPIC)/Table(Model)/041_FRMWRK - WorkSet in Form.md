@@ -17,3 +17,11 @@ MDT: <% tp.file.last_modified_date() %>
 #### Integration
 
 ###### REFERENCE
+![[Pasted image 20240604224430.png]]
+gvCtrl.OptionsFind.AlwaysVisible
+gvCtrl.OptionsView.ShowGroupPanel
+gvCtrl.OptionsView.ColumnAutoWidth
+gvCtrl.OptionsView.EnableAppearanceEvenRow
+gvCtrl.OptionsBehavior.Editable
+gvCtrl.OptionsSelection.MultiSelect = true;
+gvCtrl.OptionsSelection.MultiSelectMode = GridMultiSelectMode.CellSelect;

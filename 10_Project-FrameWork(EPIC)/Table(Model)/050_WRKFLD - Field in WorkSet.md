@@ -63,7 +63,8 @@ select FrwId, FrmId,
 
 #### Integration
 
-CtrlTy = Binding, Column, null
+![[Pasted image 20240527215405.png]]
+CtrlCls = Binding, Column, null
 FldTy
 	1. DataType에 따른 Format이 결정
 		1. Decimal, Int, Date, DateTime
