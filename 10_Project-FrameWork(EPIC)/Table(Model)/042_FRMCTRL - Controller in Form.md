@@ -140,6 +140,7 @@ public bool EditYn
     set => Set(ref _EditYn, value);
 }
 
+
 ```
 
 ```SQL
@@ -149,9 +150,10 @@ select a.FrwId, a.FrmId, a.CtrlNm, a.ToolNm, a.CtrlW,
        a.CId, a.CDt, a.MId, a.MDt
   from FRMCTRL a
  where 1=1
-   and a.CtrlNm = @CtrlNm
-   and a.FrmId = @FrmId
    and a.FrwId = @FrwId
+   and a.FrmId = @FrmId
+   and a.CtrlNm = @CtrlNm
+
 insert into FRMCTRL
       (FrwId, FrmId, CtrlNm, ToolNm, CtrlW,
        CtrlH, CtrlX, CtrlY, TitleText, TitleWidth,
@@ -160,7 +162,8 @@ insert into FRMCTRL
 select @FrwId, @FrmId, @CtrlNm, @ToolNm, @CtrlW,
        @CtrlH, @CtrlX, @CtrlY, @TitleText, @TitleWidth,
        @TitleAlign, @DefaultText, @TextAlign, @ShowYn, @EditYn,
-       @CId, @CDt, @MId, @MDt
+       <$gRegId>, getdate(), <$gRegId>, getdate()
+
 update a
    set FrwId= @FrwId,
        FrmId= @FrmId,
@@ -177,22 +180,25 @@ update a
        TextAlign= @TextAlign,
        ShowYn= @ShowYn,
        EditYn= @EditYn,
-       CId= @CId,
-       CDt= @CDt,
-       MId= @MId,
-       MDt= @MDt
+       MId= <$gRegId>,
+       MDt= getdate()
   from FRMCTRL a
  where 1=1
-   and CtrlNm = @CtrlNm_old
-   and FrmId = @FrmId_old
-   and FrwId = @FrwId_old
+   and FrwId = @FrwId
+   and FrmId = @FrmId
+   and CtrlNm = @CtrlNm
+
 delete
   from FRMCTRL
  where 1=1
-   and CtrlNm = @CtrlNm_old
-   and FrmId = @FrmId_old
-   and FrwId = @FrwId_old
+   and FrwId = @FrwId
+   and FrmId = @FrmId
+   and CtrlNm = @CtrlNm
 ```
 #### Integration
 
 ###### REFERENCE
+
+grdFrmCtrl
+
+grdWrkFld

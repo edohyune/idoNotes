@@ -4,143 +4,68 @@
     "type": "split",
     "children": [
       {
-        "id": "fc435abd44f51c7b",
+        "id": "29a693d8e2a2f493",
         "type": "tabs",
         "children": [
           {
-            "id": "de32d030be729f41",
+            "id": "9a62679b8e31ebaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/000_GAIA - ERD(Form Development).md",
+                "file": "10_Project-FrameWork(EPIC)/Server Configration/서버 백업 및 셋팅 관련 정리 목록.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3adb1f3ed5beee90",
+            "id": "327d7e242099ae68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/Epic(FrameWork) Server - HardWare.md",
+                "file": "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Grid Set.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fdc64039ebde7a86",
+            "id": "28c33c640fe0f1f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD - Field in WorkSet.md",
+                "file": "10_Project-FrameWork(EPIC)/Function/FrmBase.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fb9e69b0bd34d4d8",
+            "id": "f189aaefe87c4efa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/021_FrwCde - Code Master.md",
+                "file": "00_Start/ChatGPT Prompt/FrmBase.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "244d79b1121c4de2",
+            "id": "994e366d8fd1a8cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/051_CdePop - PopUp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbdfc9d02353c7b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c90d5b92d6dd345",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/066_PopSql -.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f057117ed41009b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/067_PopGet -.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07cefc0f4480e34c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/068_PopSet -.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4686db0c4b93b9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Planner/Tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01055492caeb862c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD - Field in WorkSet.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.6.7"
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "code",
+                "query": "Action",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,11 +111,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 273.5
   },
   "right": {
     "id": "14934f9a276032c7",
@@ -207,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Planner/Tasks.md",
+                "file": "10_Project-FrameWork(EPIC)/Server Configration/서버 백업 및 셋팅 관련 정리 목록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Planner/Tasks.md",
+                "file": "10_Project-FrameWork(EPIC)/Server Configration/서버 백업 및 셋팅 관련 정리 목록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Planner/Tasks.md"
+                "file": "10_Project-FrameWork(EPIC)/Server Configration/서버 백업 및 셋팅 관련 정리 목록.md"
               }
             }
           },
@@ -309,56 +235,56 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b4686db0c4b93b9c",
+  "active": "9a62679b8e31ebaa",
   "lastOpenFiles": [
-    "10_Project-FrameWork(EPIC)/Table(Model)/FRM -  Form.md",
-    "00_Planner/Tasks.md",
-    "10_Project-FrameWork(EPIC)/Function/Basic Procedure Setting.md",
-    "10_Project-FrameWork(EPIC)/Function/DbHelper 구성.md",
-    "10_Project-FrameWork(EPIC)/Function/DLL Upload & Respons.md",
-    "10_Project-FrameWork(EPIC)/Function/FrameWork Function.md",
-    "10_Project-FrameWork(EPIC)/Function/GenFunc.md",
-    "10_Project-FrameWork(EPIC)/Function/Syntax Match.md",
-    "10_Project-FrameWork(EPIC)/Function/라이센스 관리.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/041_FRMWRK - WorkSet in Form.md",
-    "ZZ_Files/imgs/Pasted image 20240604224430.png",
-    "10_Project-FrameWork(EPIC)/User Controller/Archve/Delegate.md",
-    "00_Start/DOC_License/Internet Download Manager.md",
     "10_Project-FrameWork(EPIC)/User Controller/Ctrl_Grid Set.md",
-    "10_Project-FrameWork(EPIC)/User Controller/DevExpress/GridControl.md",
-    "10_Project-FrameWork(EPIC)/User Controller/DevExpress",
-    "10_Project-FrameWork(EPIC)/Table(Model)/000_AaaAaa - Model Template.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/051_CdePop - PopUp.md",
-    "ZZ_Files/imgs/Pasted image 20240603162051.png",
-    "ZZ_Files/imgs/Pasted image 20240603161112.png",
-    "ZZ_Files/imgs/Pasted image 20240603160959.png",
-    "10_Project-FrameWork(EPIC)/Table(Model)/050_WRKFLD - Field in WorkSet.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/068_PopSet -.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/067_PopGet -.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/066_PopSql -.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/무제 파일 4.md",
-    "무제 파일.md",
-    "10_Project-FrameWork(EPIC)/Table(Model)/021_FrwCde - Code Master.md",
-    "Basic Code.md",
-    "ZZ_Files/imgs/Pasted image 20240601183006.png",
-    "00_Start/DOC_License/ExpressVPN.md",
-    "ZZ_Migration/Frame Work 개발/Frame Work 개발.md",
-    "ZZ_Files/imgs/Pasted image 20240601164350.png",
-    "ZZ_Files/imgs/Pasted image 20240601150433.png",
-    "10_Project-FrameWork(EPIC)/FRMCTRLWRKFLD 관계도.canvas",
-    "ZZ_Files/imgs/Pasted image 20240527215405.png",
-    "ZZ_Files/imgs/Pasted image 20240524231410.png",
+    "00_Start/ChatGPT Prompt/FrmBase.md",
+    "10_Project-FrameWork(EPIC)/Function/FrmBase.md",
+    "ZZ_Files/imgs/Pasted image 20240714112153.png",
+    "10_Project-FrameWork(EPIC)/User Controller/신규 UserControl, CustomControl.md",
+    "10_Project-FrameWork(EPIC)/User Controller/Interface.md",
     "10_Project-FrameWork(EPIC)/Program List/Form Load.canvas",
-    "ZZ_Files/imgs/Pasted image 20240522234306.png",
+    "10_Project-FrameWork(EPIC)/Function/FrameWork Function.md",
+    "10_Project-FrameWork(EPIC)/Function/DLL Upload & Respons.md",
+    "10_Project-FrameWork(EPIC)/Function/DbHelper 구성.md",
+    "10_Project-FrameWork(EPIC)/Function/Basic Procedure Setting.md",
+    "10_Project-FrameWork(EPIC)/Table(Model)/030_FRWFRM - From in FrameWork.md",
+    "00_Planner/00_Daily/2024-07-05 금.md",
+    "00_Planner/00_Daily/2024-06-05 수.md",
+    "10_Project-FrameWork(EPIC)/Server Configration/서버 백업 및 셋팅 관련 정리 목록.md",
+    "10_Project-FrameWork(EPIC)/Form 구성 과 테이블설명.md",
+    "10_Project-FrameWork(EPIC)/FRMCTRLWRKFLD 관계도.canvas",
+    "10_Project-FrameWork(EPIC)/GaiaHelper Repo 사용방법.md",
+    "10_Project-FrameWork(EPIC)/프레임워크의 컨셉 및 개념설명.md",
+    "00_Start/ChatGPT Prompt/UCFieldSet.md",
+    "10_Project-FrameWork(EPIC)/Epic(FrameWork) 기능 - SoftWare.md",
+    "10_Project-FrameWork(EPIC)/Epic(FrameWork) Server - HardWare.md",
+    "10_Project-FrameWork(EPIC)/Epic, Asteroid 작업순서.md",
+    "10_Project-FrameWork(EPIC)/Server Configration/Create Database.md",
+    "00_Planner/Tasks.md",
+    "오픈트리거 처리방법.md",
+    "GitHub Epic Prologue.md",
+    "Form Copy.md",
+    "Basic Code.md",
+    "00_Start/ChatGPT Prompt",
+    "ZZ_Files/imgs/Pasted image 20240621135159.png",
+    "10_Project-FrameWork(EPIC)/Function/Syntax, System Variables",
+    "ZZ_Files/imgs/상아20240616211424.png",
+    "10_Project-FrameWork(EPIC)/00_Class Diagram",
+    "ZZ_Files/imgs/Pasted image 20240607163938.png",
+    "ZZ_Files/imgs/Pasted image 20240607163924.png",
+    "ZZ_Files/imgs/Pasted image 20240607163846.png",
+    "ZZ_Files/imgs/Pasted image 20240605125401.png",
+    "ZZ_Files/imgs/1.png",
+    "ZZ_Files/imgs/PDK050.zip",
+    "ZZ_Files/imgs/PDK000 1.vb",
+    "ZZ_Files/imgs/PDK000.vb",
+    "ZZ_Files/imgs/Pasted image 20240605112355.png",
+    "ZZ_Files/imgs/Pasted image 20240605112318.png",
+    "10_Project-FrameWork(EPIC)/User Controller/DevExpress",
     "10_Project-FrameWork(EPIC)/User Controller/Archve",
     "무제 폴더 2",
     "10_Project-FrameWork(EPIC)/Server Configration/MARS",
-    "10_Project-FrameWork(EPIC)/Server Configration/GAIA",
-    "10_Project-FrameWork(EPIC)/Server Configration/SELENE",
-    "10_Project-FrameWork(EPIC)/Function/Done",
-    "75_Tutorial/Python/데이터 타입",
-    "75_Tutorial/Python",
-    "10_Project-FrameWork(EPIC)/Table(Model)/ERD - ALL",
     "10_Project-FrameWork(EPIC)/ZZ_Archive/MindMap - FrameWork의 구조.canvas",
     "10_Project-FrameWork(EPIC)/Project FrameWork Map.canvas",
     "무제 파일 2.canvas",

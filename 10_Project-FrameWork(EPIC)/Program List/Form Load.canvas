@@ -11,10 +11,10 @@
 		{"id":"5f8466fa30537cae","type":"text","text":"openFileDialog","x":-290,"y":-167,"width":220,"height":50},
 		{"id":"b37e5a81ff07e067","type":"text","text":"Btn : ReLoad","x":-290,"y":-92,"width":220,"height":50},
 		{"id":"90a3f2a2e7f01d81","type":"text","text":"FieldInfo[] fields = ucform.GetType().GetFields(\nBindingFlags.NonPublic | \nBindingFlags.Public | \nBindingFlags.Instance);","x":100,"y":-427,"width":558,"height":155},
-		{"id":"b109bd03f2ee4f1a","type":"file","file":"ZZ_Files/imgs/Pasted image 20240515105238.png","x":-592,"y":560,"width":1617,"height":760},
 		{"id":"2174afba77d59dd4","type":"text","text":"FocusedRowChanged","x":-842,"y":840,"width":250,"height":60},
 		{"id":"0afb944c6c321ee1","type":"text","text":"Form ID _ EditValueChanged","x":1038,"y":740,"width":250,"height":80},
-		{"id":"93c00febd4c778e1","type":"text","text":"Input Field Set","x":-275,"y":-240,"width":190,"height":50}
+		{"id":"93c00febd4c778e1","type":"text","text":"Input Field Set","x":-275,"y":-240,"width":190,"height":50},
+		{"id":"b109bd03f2ee4f1a","type":"file","file":"ZZ_Files/imgs/Pasted image 20240515105238.png","x":-480,"y":560,"width":1617,"height":760}
 	],
 	"edges":[
 		{"id":"6bbcb3f8be355d98","fromNode":"9e7a83d3e21e0199","fromSide":"right","toNode":"5f8466fa30537cae","toSide":"left"},

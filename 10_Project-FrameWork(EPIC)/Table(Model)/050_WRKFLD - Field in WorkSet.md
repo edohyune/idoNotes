@@ -111,46 +111,50 @@ Id bigint
 ```
 
 ```SQL
-select a.FrwId, a.FrmId, a.CtrlNm, a.WrkId, a.CtrlCls,
-       a.FldNm, a.FldTy, a.FldX, a.FldY, a.FldWidth,
-       a.FldTitleWidth, a.FldTitle, a.TitleAlign, a.Popup, a.DefaultText,
-       a.TextAlign, a.FixYn, a.GroupYn, a.ShowYn, a.NeedYn,
-       a.EditYn, a.Band1, a.Band2, a.FuncStr, a.FormatStr,
-       a.ColorFont, a.ColorBg, a.ToolNm, a.Seq, a.Id,
-       a.CId, a.CDt, a.MId, a.MDt
+select a.FrwId, a.FrmId, a.CtrlNm, a.WrkId, a.FldNm,
+       a.CtrlCls, a.FldTy, a.FldX, a.FldY, a.FldWidth,
+       a.FldHeight, a.FldTitleWidth, a.FldTitle, a.TitleAlign, a.Popup,
+       a.DefaultText, a.TextAlign, a.FixYn, a.GroupYn, a.ShowYn,
+       a.NeedYn, a.EditYn, a.Band1, a.Band2, a.FuncStr,
+       a.FormatStr, a.ColorFont, a.ColorBg, a.ToolNm, a.Seq,
+       a.Id, a.Memo, a.CId, a.CDt, a.MId,
+       a.MDt
   from WRKFLD a
  where 1=1
-   and a.CtrlNm = @CtrlNm
-   and a.FrmId = @FrmId
    and a.FrwId = @FrwId
-   
+   and a.FrmId = @FrmId
+   and a.CtrlNm = @CtrlNm
+
 insert into WRKFLD
-      (FrwId, FrmId, CtrlNm, WrkId, CtrlCls,
-       FldNm, FldTy, FldX, FldY, FldWidth,
-       FldTitleWidth, FldTitle, TitleAlign, Popup, DefaultText,
-       TextAlign, FixYn, GroupYn, ShowYn, NeedYn,
-       EditYn, Band1, Band2, FuncStr, FormatStr,
-       ColorFont, ColorBg, ToolNm, Seq, Id,
+      (FrwId, FrmId, CtrlNm, WrkId, FldNm,
+       CtrlCls, FldTy, FldX, FldY, FldWidth,
+       FldHeight, FldTitleWidth, FldTitle, TitleAlign, Popup,
+       DefaultText, TextAlign, FixYn, GroupYn, ShowYn,
+       NeedYn, EditYn, Band1, Band2, FuncStr,
+       FormatStr, ColorFont, ColorBg, ToolNm, Seq,
+       Id, Memo, 
        CId, CDt, MId, MDt)
-select @FrwId, @FrmId, @CtrlNm, @WrkId, @CtrlCls,
-       @FldNm, @FldTy, @FldX, @FldY, @FldWidth,
-       @FldTitleWidth, @FldTitle, @TitleAlign, @Popup, @DefaultText,
-       @TextAlign, @FixYn, @GroupYn, @ShowYn, @NeedYn,
-       @EditYn, @Band1, @Band2, @FuncStr, @FormatStr,
-       @ColorFont, @ColorBg, @ToolNm, @Seq, @Id,
-       @CId, @CDt, @MId, @MDt
-       
+select @FrwId, @FrmId, @CtrlNm, @WrkId, @FldNm,
+       @CtrlCls, @FldTy, @FldX, @FldY, @FldWidth,
+       @FldHeight, @FldTitleWidth, @FldTitle, @TitleAlign, @Popup,
+       @DefaultText, @TextAlign, @FixYn, @GroupYn, @ShowYn,
+       @NeedYn, @EditYn, @Band1, @Band2, @FuncStr,
+       @FormatStr, @ColorFont, @ColorBg, @ToolNm, @Seq,
+       @Id, @Memo, 
+       <$gRegId>, getdate(), <$gRegId>, getdate()
+
 update a
    set FrwId= @FrwId,
        FrmId= @FrmId,
        CtrlNm= @CtrlNm,
        WrkId= @WrkId,
-       CtrlCls= @CtrlCls,
        FldNm= @FldNm,
+       CtrlCls= @CtrlCls,
        FldTy= @FldTy,
        FldX= @FldX,
        FldY= @FldY,
        FldWidth= @FldWidth,
+       FldHeight= @FldHeight,
        FldTitleWidth= @FldTitleWidth,
        FldTitle= @FldTitle,
        TitleAlign= @TitleAlign,
@@ -171,22 +175,21 @@ update a
        ToolNm= @ToolNm,
        Seq= @Seq,
        Id= @Id,
-       CId= @CId,
-       CDt= @CDt,
-       MId= @MId,
-       MDt= @MDt
+       Memo= @Memo,
+       MId= <$gRegId>,
+       MDt= getdate()
   from WRKFLD a
  where 1=1
-   and CtrlNm = @CtrlNm_old
-   and FrmId = @FrmId_old
-   and FrwId = @FrwId_old
-   
+   and FrwId = @FrwId
+   and FrmId = @FrmId
+   and CtrlNm = @CtrlNm
+
 delete
   from WRKFLD
  where 1=1
-   and CtrlNm = @CtrlNm_old
-   and FrmId = @FrmId_old
-   and FrwId = @FrwId_old
+   and FrwId = @FrwId
+   and FrmId = @FrmId
+   and CtrlNm = @CtrlNm
 ```
 
 ##### Model
@@ -219,18 +222,18 @@ public string WrkId
     set => Set(ref _WrkId, value);
 }
 
-private string _CtrlCls;
-public string CtrlCls
-{
-    get => _CtrlCls;
-    set => Set(ref _CtrlCls, value);
-}
-
 private string _FldNm;
 public string FldNm
 {
     get => _FldNm;
     set => Set(ref _FldNm, value);
+}
+
+private string _CtrlCls;
+public string CtrlCls
+{
+    get => _CtrlCls;
+    set => Set(ref _CtrlCls, value);
 }
 
 private string _FldTy;
@@ -259,6 +262,13 @@ public int FldWidth
 {
     get => _FldWidth;
     set => Set(ref _FldWidth, value);
+}
+
+private int _FldHeight;
+public int FldHeight
+{
+    get => _FldHeight;
+    set => Set(ref _FldHeight, value);
 }
 
 private int _FldTitleWidth;
@@ -401,7 +411,12 @@ public long Id
     set => Set(ref _Id, value);
 }
 
-
+private string _Memo;
+public string Memo
+{
+    get => _Memo;
+    set => Set(ref _Memo, value);
+}
 ```
 ##### Repository
 ```C#
