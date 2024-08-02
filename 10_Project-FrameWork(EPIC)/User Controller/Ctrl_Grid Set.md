@@ -1635,3 +1635,53 @@ private void targetGrid_DragDrop(object sender, DragEventArgs e)
 ```SQL
 INSERT INTO ColumnProperties (ColumnName, Band01, Band02, Band03, Band04, Band05, Band06, Band07, Band08, Band09, Band10, ColumnTitle, ColumnWidth, ShowYn, EditYn, TitleAlign, TextAlign, FormatStr, FldTy, Popup) VALUES ('bandedGridColumn1', 'gridBand1', 'gridBand11', 'gridBand111', 'gridBand1111', 'gridBand11111', 'gridBand111111', NULL, NULL, NULL, NULL, 'Column 1', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn2', 'gridBand1', 'gridBand11', 'gridBand111', 'gridBand1111', 'gridBand11111', 'gridBand111112', NULL, NULL, NULL, NULL, 'Column 2', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn3', 'gridBand1', 'gridBand11', 'gridBand111', 'gridBand1111', 'gridBand11112', NULL, NULL, NULL, NULL, NULL, 'Column 3', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn4', 'gridBand1', 'gridBand11', 'gridBand111', 'gridBand1112', NULL, NULL, NULL, NULL, NULL, NULL, 'Column 4', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn5', 'gridBand1', 'gridBand11', 'gridBand111', 'gridBand1112', NULL, NULL, NULL, NULL, NULL, NULL, 'Column 5', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn6', 'gridBand1', 'gridBand11', 'gridBand111', 'gridBand112', NULL, NULL, NULL, NULL, NULL, NULL, 'Column 6', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn7', 'gridBand1', 'gridBand11', 'gridBand112', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Column 7', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn8', 'gridBand1', 'gridBand12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Column 8', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn9', 'gridBand1', 'gridBand12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Column 9', 100, 1, 1, 'Center', 'Left', '', 'String', ''), ('bandedGridColumn10', 'gridBand1', 'gridBand12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Column 10', 100, 1, 1, 'Center', 'Left', '', 'String', '');
 ```
+
+
+
+
+
+
+
+그리드 기본형 및 밴드형
+```C#
+
+private GridControl grdFrmWrk;
+private DevExpress.XtraGrid.Views.Grid.GridView gvFrmWrk;
+
+// 
+// grdFrmWrk
+// 
+grdFrmWrk.Dock = DockStyle.Fill;
+grdFrmWrk.Location = new Point(0, 0);
+grdFrmWrk.MainView = gvFrmWrk;
+grdFrmWrk.Name = "grdFrmWrk";
+grdFrmWrk.Size = new Size(1020, 486);
+grdFrmWrk.TabIndex = 1;
+grdFrmWrk.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gvFrmWrk });
+// 
+// gvFrmWrk
+// 
+gvFrmWrk.GridControl = grdFrmWrk;
+gvFrmWrk.Name = "gvFrmWrk";
+
+private GridControl grdFrmCtrl;
+private DevExpress.XtraGrid.Views.BandedGrid.BandedGridView gvFrmCtrl;
+
+// 
+// grdFrmCtrl
+// 
+grdFrmCtrl.Dock = DockStyle.Fill;
+grdFrmCtrl.Location = new Point(0, 0);
+grdFrmCtrl.MainView = gvFrmCtrl;
+grdFrmCtrl.Name = "grdFrmCtrl";
+grdFrmCtrl.Size = new Size(1020, 486);
+grdFrmCtrl.TabIndex = 1;
+grdFrmCtrl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gvFrmCtrl });
+// 
+// gvFrmCtrl
+// 
+gvFrmCtrl.GridControl = grdFrmCtrl;
+gvFrmCtrl.Name = "gvFrmCtrl";
+
+gvFrmCtrl.OptionsView.ShowColumnHeaders = false;
+```

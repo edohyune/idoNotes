@@ -15,20 +15,17 @@ MDT: <% tp.file.last_modified_date() %>
 #### Manifestation
 
 #### Integration
-```mermaid
-erDiagram
-FRWFRM {
-FrwId varchar(20)
-FrmId varchar(20)
-FrmNm nvarchar(100)
-UsrRegId int
-FilePath nvarchar(500)
-FileNm nvarchar(50)
-NmSpace varchar(50)
-FldYn bit
-PId varchar(20)
-Memo nvarchar(500)
-}
+```C#
+public string FrwId{ get; set; }
+public string FrmId{ get; set; }
+public string FrmNm{ get; set; }
+public int UsrRegId{ get; set; }
+public string FilePath{ get; set; }
+public string FileNm{ get; set; }
+public string NmSpace{ get; set; }
+public bool FldYn{ get; set; }
+public string PId{ get; set; }
+public string Memo{ get; set; }
 ```
 
 ```C#
